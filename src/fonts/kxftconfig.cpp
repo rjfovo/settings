@@ -32,8 +32,9 @@
 #include <QDir>
 #include <QFile>
 #include <QFileInfo>
+#include <QGuiApplication>
+#include <QScreen>
 #include <QStandardPaths>
-#include <QX11Info>
 
 #include <fontconfig/fontconfig.h>
 
@@ -41,12 +42,20 @@ using namespace std;
 
 static int point2Pixel(double point)
 {
-    return (int)(((point * QX11Info::appDpiY()) / 72.0) + 0.5);
+    QScreen *screen = QGuiApplication::primaryScreen();
+    if (!screen) {
+        return (int)((point * 96.0 / 72.0) + 0.5); // 默认 DPI 96
+    }
+    return (int)(((point * screen->logicalDotsPerInch()) / 72.0) + 0.5);
 }
 
 static int pixel2Point(double pixel)
 {
-    return (int)(((pixel * 72.0) / (double)QX11Info::appDpiY()) + 0.5);
+    QScreen *screen = QGuiApplication::primaryScreen();
+    if (!screen) {
+        return (int)((pixel * 72.0 / 96.0) + 0.5); // 默认 DPI 96
+    }
+    return (int)(((pixel * 72.0) / screen->logicalDotsPerInch()) + 0.5);
 }
 
 static bool equal(double d1, double d2)
@@ -200,7 +209,7 @@ QString KXftConfig::getConfigFile()
     //
     // Go through list of localFiles, looking for the preferred one...
     if (!localFiles.isEmpty()) {
-        for (const QString &file : qAsConst(localFiles)) {
+        for (const QString &file : std::as_const(localFiles)) {
             if (file.endsWith(QLatin1String("/fonts.conf")) || file.endsWith(QLatin1String("/.fonts.conf"))) {
                 return file;
             }

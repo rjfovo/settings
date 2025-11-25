@@ -4,529 +4,423 @@
 <context>
     <name>AddUserDialog</name>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="72"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="78"/>
         <source>User name</source>
-        <translation>Nombre de usuario</translation>
+        <translation type="vanished">Nombre de usuario</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="85"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="91"/>
         <source>Password</source>
-        <translation>Contraseña</translation>
+        <translation type="vanished">Contraseña</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="98"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="104"/>
         <source>Verify password</source>
-        <translation>Verificar contraseña</translation>
+        <translation type="vanished">Verificar contraseña</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="111"/>
         <source>Account type</source>
-        <translation>Tipo de cuenta</translation>
+        <translation type="vanished">Tipo de cuenta</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Standard</source>
-        <translation>Estándar</translation>
+        <translation type="vanished">Estándar</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Administrator</source>
-        <translation>Administrador</translation>
+        <translation type="vanished">Administrador</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="130"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation type="vanished">Cancelar</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="137"/>
         <source>Add</source>
-        <translation>Agregar</translation>
+        <translation type="vanished">Agregar</translation>
     </message>
 </context>
 <context>
     <name>BluetoothPage</name>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="29"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="49"/>
         <source>Bluetooth is disabled</source>
-        <translation>Bluetooth está desactivado</translation>
+        <translation type="vanished">Bluetooth está desactivado</translation>
     </message>
 </context>
 <context>
     <name>LanguagePage</name>
     <message>
-        <location filename="../src/qml/LanguagePage.qml" line="29"/>
         <source>Language</source>
-        <translation>Lenguaje</translation>
+        <translation type="vanished">Lenguaje</translation>
     </message>
 </context>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>Acerca de</translation>
+        <translation type="vanished">Acerca de</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="68"/>
         <source>Built on %1</source>
-        <translation>Construido en %1</translation>
+        <translation type="vanished">Construido en %1</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="76"/>
         <source>System Version</source>
-        <translation>Versión del Sistema</translation>
+        <translation type="vanished">Versión del Sistema</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="81"/>
         <source>System Type</source>
-        <translation>Tipo de sistema</translation>
+        <translation type="vanished">Tipo de sistema</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="86"/>
         <source>Kernel Version</source>
-        <translation>Versión del núcleo</translation>
+        <translation type="vanished">Versión del núcleo</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="91"/>
         <source>Processor</source>
-        <translation>Procesador</translation>
+        <translation type="vanished">Procesador</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="96"/>
         <source>RAM</source>
-        <translation>RAM</translation>
+        <translation type="vanished">RAM</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="101"/>
         <source>Internal Storage</source>
-        <translation>Almacenamiento interno</translation>
+        <translation type="vanished">Almacenamiento interno</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="30"/>
         <source>Appearance</source>
-        <translation>Apariencia</translation>
+        <translation type="vanished">Apariencia</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="47"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation type="vanished">Tema</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="59"/>
         <source>Light</source>
-        <translation>Claro</translation>
+        <translation type="vanished">Claro</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="66"/>
         <source>Dark</source>
-        <translation>Oscuro</translation>
+        <translation type="vanished">Oscuro</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="81"/>
         <source>Dim the wallpaper in dark theme</source>
-        <translation>Dim el wallpaper en tema oscuro</translation>
+        <translation type="vanished">Dim el wallpaper en tema oscuro</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="104"/>
         <source>Accent color</source>
-        <translation>Color de contraste</translation>
+        <translation type="vanished">Color de contraste</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="31"/>
         <source>Fonts</source>
-        <translation>Fuentes</translation>
+        <translation type="vanished">Fuentes</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="92"/>
         <source>General Font</source>
-        <translation>Fuente general</translation>
+        <translation type="vanished">Fuente general</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="109"/>
         <source>Fixed Font</source>
-        <translation>Fuente Fija</translation>
+        <translation type="vanished">Fuente Fija</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="126"/>
         <source>Font Size</source>
-        <translation>Tamaño de la fuente</translation>
+        <translation type="vanished">Tamaño de la fuente</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="187"/>
         <source>Hinting</source>
-        <translation>Sugerencia</translation>
+        <translation type="vanished">Sugerencia</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>Anti-Aliasing</translation>
+        <translation type="vanished">Anti-Aliasing</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="95"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="134"/>
         <source>Small</source>
-        <translation>Pequeño</translation>
+        <translation type="vanished">Pequeño</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="99"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="138"/>
         <source>Medium</source>
-        <translation>Mediano</translation>
+        <translation type="vanished">Mediano</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="103"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="142"/>
         <source>Large</source>
-        <translation>Grande</translation>
+        <translation type="vanished">Grande</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="107"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="146"/>
         <source>Huge</source>
-        <translation>Enorme</translation>
+        <translation type="vanished">Enorme</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="29"/>
         <source>Battery</source>
-        <translation>Batería</translation>
+        <translation type="vanished">Batería</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last hour</source>
-        <translation>Última hora</translation>
+        <translation type="vanished">Última hora</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 2 hours</source>
-        <translation>Últimas 2 horas</translation>
+        <translation type="vanished">Últimas 2 horas</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 12 hours</source>
-        <translation>Últimas 12 horas</translation>
+        <translation type="vanished">Últimas 12 horas</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 24 hours</source>
-        <translation>Últimas 24 horas</translation>
+        <translation type="vanished">Últimas 24 horas</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 48 hours</source>
-        <translation>Últimas 48 horas</translation>
+        <translation type="vanished">Últimas 48 horas</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 7 days</source>
-        <translation>Últimos 7 días</translation>
+        <translation type="vanished">Últimos 7 días</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="126"/>
         <source>History</source>
-        <translation>Historial</translation>
+        <translation type="vanished">Historial</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="159"/>
         <source>W</source>
-        <translation>W</translation>
+        <translation type="vanished">W</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="181"/>
         <source>Health</source>
-        <translation>Salud</translation>
+        <translation type="vanished">Salud</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="200"/>
         <source>Poor</source>
-        <translation>Pobre</translation>
+        <translation type="vanished">Pobre</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="229"/>
         <source>Normal</source>
-        <translation>Normal</translation>
+        <translation type="vanished">Normal</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="258"/>
         <source>Excellent</source>
-        <translation>Excelente</translation>
+        <translation type="vanished">Excelente</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="280"/>
         <source>Last Charged to</source>
-        <translation>Última carga a</translation>
+        <translation type="vanished">Última carga a</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="286"/>
         <source>Maximum Capacity</source>
-        <translation>Capacidad máxima</translation>
+        <translation type="vanished">Capacidad máxima</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="298"/>
         <source>Show percentage in status bar</source>
-        <translation>Mostrar el porcentaje en la barra de estado</translation>
+        <translation type="vanished">Mostrar el porcentaje en la barra de estado</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="322"/>
         <source>No battery found</source>
-        <translation>Ninguna batería encontrada</translation>
+        <translation type="vanished">Ninguna batería encontrada</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="29"/>
         <source>Display</source>
-        <translation>Interfaz</translation>
+        <translation type="vanished">Interfaz</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="63"/>
         <source>Brightness</source>
-        <translation>Brillo</translation>
+        <translation type="vanished">Brillo</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="116"/>
         <source>Screen</source>
-        <translation>Pantalla</translation>
+        <translation type="vanished">Pantalla</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="159"/>
         <source>Screen Name</source>
-        <translation>Nombre de la pantalla</translation>
+        <translation type="vanished">Nombre de la pantalla</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="168"/>
         <source>Resolution</source>
-        <translation>Resolución</translation>
+        <translation type="vanished">Resolución</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="187"/>
         <source>Refresh rate</source>
-        <translation>Velocidad de refresco</translation>
+        <translation type="vanished">Velocidad de refresco</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="207"/>
         <source>Rotation</source>
-        <translation>Rotación</translation>
+        <translation type="vanished">Rotación</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="251"/>
         <source>Enabled</source>
-        <translation>Habilitado</translation>
+        <translation type="vanished">Habilitado</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="285"/>
         <source>Scale</source>
-        <translation>Escala</translation>
+        <translation type="vanished">Escala</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="354"/>
         <source>Need to log in again to take effect</source>
-        <translation>Es necesario reiniciar sesión para aplicar los cambios</translation>
+        <translation type="vanished">Es necesario reiniciar sesión para aplicar los cambios</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="28"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation type="vanished">Dock</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="44"/>
         <source>Position on screen</source>
-        <translation>Posición en la pantalla</translation>
+        <translation type="vanished">Posición en la pantalla</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="56"/>
         <source>Left</source>
-        <translation>Izquierda</translation>
+        <translation type="vanished">Izquierda</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="63"/>
         <source>Bottom</source>
-        <translation>Inferior</translation>
+        <translation type="vanished">Inferior</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="70"/>
         <source>Right</source>
-        <translation>Derecha</translation>
+        <translation type="vanished">Derecha</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="82"/>
         <source>Size</source>
-        <translation>Tamaño</translation>
+        <translation type="vanished">Tamaño</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="153"/>
         <source>Display mode</source>
-        <translation>Modo de visualización</translation>
+        <translation type="vanished">Modo de visualización</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="166"/>
         <source>Always show</source>
-        <translation>Siempre mostrar</translation>
+        <translation type="vanished">Siempre mostrar</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="170"/>
         <source>Auto hide</source>
-        <translation>Auto-esconder</translation>
+        <translation type="vanished">Auto-esconder</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="30"/>
         <source>Power</source>
-        <translation>Energía</translation>
+        <translation type="vanished">Energía</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="43"/>
         <source>Mode</source>
-        <translation>Modo</translation>
+        <translation type="vanished">Modo</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="53"/>
         <source>Power Save</source>
-        <translation>Ahorro de energía</translation>
+        <translation type="vanished">Ahorro de energía</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="59"/>
         <source>Balance</source>
-        <translation>Balanceado</translation>
+        <translation type="vanished">Balanceado</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="65"/>
         <source>Performance</source>
-        <translation>Rendimiento</translation>
+        <translation type="vanished">Rendimiento</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="31"/>
         <source>User</source>
-        <translation>Usuario</translation>
+        <translation type="vanished">Usuario</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="80"/>
         <source>Add user</source>
-        <translation>Agregar usuario</translation>
+        <translation type="vanished">Agregar usuario</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="30"/>
         <source>Background</source>
-        <translation>Fondo</translation>
+        <translation type="vanished">Fondo</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="56"/>
         <source>Background type</source>
-        <translation>Tipo de fondo</translation>
+        <translation type="vanished">Tipo de fondo</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="77"/>
         <source>Picture</source>
-        <translation>Imagen</translation>
+        <translation type="vanished">Imagen</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="81"/>
         <source>Color</source>
-        <translation>Color</translation>
+        <translation type="vanished">Color</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/Main.qml" line="32"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="32"/>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="71"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wired/Main.qml" line="32"/>
-        <location filename="../src/qml/Wired/Main.qml" line="80"/>
         <source>Ethernet</source>
-        <translation>Ethernet</translation>
+        <translation type="vanished">Ethernet</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="30"/>
         <source>Application</source>
-        <translation>Aplicacion</translation>
+        <translation type="vanished">Aplicacion</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="42"/>
         <source>Default application</source>
-        <translation>Aplicación predeterminada</translation>
+        <translation type="vanished">Aplicación predeterminada</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>Navegador web</translation>
+        <translation type="vanished">Navegador web</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="60"/>
         <source>File manager</source>
-        <translation>Administrador de Archivos</translation>
+        <translation type="vanished">Administrador de Archivos</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="68"/>
         <source>Email</source>
-        <translation>Correo electrónico</translation>
+        <translation type="vanished">Correo electrónico</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="76"/>
         <source>Terminal emulator</source>
-        <translation>Emulador de terminal</translation>
+        <translation type="vanished">Emulador de terminal</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="32"/>
-        <location filename="../src/qml/Hotspot/Main.qml" line="69"/>
         <source>Hotspot</source>
-        <translation>Punto de acceso</translation>
+        <translation type="vanished">Punto de acceso</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="47"/>
         <source>Not supported</source>
-        <translation>No soportado</translation>
+        <translation type="vanished">No soportado</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="102"/>
         <source>SSID</source>
-        <translation>SSID</translation>
+        <translation type="vanished">SSID</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="113"/>
         <source>Password</source>
-        <translation>Contraseña</translation>
+        <translation type="vanished">Contraseña</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="129"/>
         <source>Save</source>
-        <translation>Guardar</translation>
+        <translation type="vanished">Guardar</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="503"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="512"/>
         <source>Vendor default</source>
         <translation>Proveedor predeterminado</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="505"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="514"/>
         <source>Medium</source>
         <translation>Mediano</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="507"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="516"/>
         <source>None</source>
         <translation>Ninguno</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="509"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="518"/>
         <source>Slight</source>
         <translation>Leve</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="511"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="520"/>
         <source>Full</source>
         <translation>Lleno</translation>
     </message>
@@ -534,192 +428,151 @@
 <context>
     <name>SideBar</name>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="131"/>
         <source>User</source>
-        <translation>Usuario</translation>
+        <translation type="vanished">Usuario</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="86"/>
         <source>Display</source>
-        <translation>Interfaz</translation>
+        <translation type="vanished">Interfaz</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="52"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="57"/>
-        <location filename="../src/qml/SideBar.qml" line="66"/>
         <source>Network and connection</source>
-        <translation>Red y conexión</translation>
+        <translation type="vanished">Red y conexión</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="61"/>
         <source>Ethernet</source>
-        <translation>Ethernet</translation>
+        <translation type="vanished">Ethernet</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="91"/>
-        <location filename="../src/qml/SideBar.qml" line="100"/>
-        <location filename="../src/qml/SideBar.qml" line="109"/>
-        <location filename="../src/qml/SideBar.qml" line="118"/>
-        <location filename="../src/qml/SideBar.qml" line="127"/>
         <source>Display and appearance</source>
-        <translation>Visualización y apariencia</translation>
+        <translation type="vanished">Visualización y apariencia</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="95"/>
         <source>Appearance</source>
-        <translation>Apariencia</translation>
+        <translation type="vanished">Apariencia</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="104"/>
         <source>Fonts</source>
-        <translation>Fuentes</translation>
+        <translation type="vanished">Fuentes</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="113"/>
         <source>Background</source>
-        <translation>Fondo</translation>
+        <translation type="vanished">Fondo</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="122"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation type="vanished">Dock</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="136"/>
-        <location filename="../src/qml/SideBar.qml" line="154"/>
-        <location filename="../src/qml/SideBar.qml" line="163"/>
-        <location filename="../src/qml/SideBar.qml" line="179"/>
         <source>System</source>
-        <translation>Sistema</translation>
+        <translation type="vanished">Sistema</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="149"/>
         <source>Language</source>
-        <translation>Lenguaje</translation>
+        <translation type="vanished">Lenguaje</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="158"/>
         <source>Battery</source>
-        <translation>Batería</translation>
+        <translation type="vanished">Batería</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="174"/>
         <source>About</source>
-        <translation>Acerca</translation>
+        <translation type="vanished">Acerca</translation>
     </message>
 </context>
 <context>
     <name>UserDelegateItem</name>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="124"/>
         <source>Currently logged</source>
-        <translation>Actualmente ingresado</translation>
+        <translation type="vanished">Actualmente ingresado</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="165"/>
         <source>Automatic login</source>
-        <translation>Ingreso automático</translation>
+        <translation type="vanished">Ingreso automático</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="184"/>
         <source>Delete this user</source>
-        <translation>Borrar este usuario</translation>
+        <translation type="vanished">Borrar este usuario</translation>
     </message>
 </context>
 <context>
     <name>WifiItem</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="175"/>
         <source>Password</source>
-        <translation>Contraseña</translation>
+        <translation type="vanished">Contraseña</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="195"/>
         <source>Show password</source>
-        <translation>Mostrar contraseña</translation>
+        <translation type="vanished">Mostrar contraseña</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="204"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation type="vanished">Cancelar</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="210"/>
         <source>Connect</source>
-        <translation>Conectar</translation>
+        <translation type="vanished">Conectar</translation>
     </message>
 </context>
 <context>
     <name>WifiView</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiView.qml" line="35"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
 </context>
 <context>
     <name>WirelessDetailsDialog</name>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="65"/>
         <source>Auto-Join</source>
-        <translation>Auto-Unirse</translation>
+        <translation type="vanished">Auto-Unirse</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="81"/>
         <source>Security</source>
-        <translation>Seguridad</translation>
+        <translation type="vanished">Seguridad</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="93"/>
         <source>Signal</source>
-        <translation>Señal</translation>
+        <translation type="vanished">Señal</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="105"/>
         <source>IPv4 Address</source>
-        <translation>Dirección IPv4</translation>
+        <translation type="vanished">Dirección IPv4</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="119"/>
         <source>IPv6 Address</source>
-        <translation>Dirección IPv6</translation>
+        <translation type="vanished">Dirección IPv6</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="133"/>
         <source>MAC Address</source>
-        <translation>Dirección MAC</translation>
+        <translation type="vanished">Dirección MAC</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="147"/>
         <source>Gateway</source>
-        <translation>Puerta de enlace</translation>
+        <translation type="vanished">Puerta de enlace</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="160"/>
         <source>DNS</source>
-        <translation>DNS</translation>
+        <translation type="vanished">DNS</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="177"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation type="vanished">Cerrar</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="183"/>
         <source>Forget this network</source>
-        <translation>Olvidar esta red</translation>
+        <translation type="vanished">Olvidar esta red</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/qml/main.qml" line="29"/>
         <source>Settings</source>
-        <translation>Configuración</translation>
+        <translation type="vanished">Configuración</translation>
     </message>
 </context>
 </TS>

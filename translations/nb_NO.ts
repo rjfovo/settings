@@ -4,529 +4,423 @@
 <context>
     <name>AddUserDialog</name>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="72"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="78"/>
         <source>User name</source>
-        <translation type="unfinished">Brukernavn</translation>
+        <translation type="obsolete">Brukernavn</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="85"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="91"/>
         <source>Password</source>
-        <translation>Passord</translation>
+        <translation type="vanished">Passord</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="98"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="104"/>
         <source>Verify password</source>
-        <translation>Bekreft passord</translation>
+        <translation type="vanished">Bekreft passord</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="111"/>
         <source>Account type</source>
-        <translation>Kontotype</translation>
+        <translation type="vanished">Kontotype</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Standard</source>
-        <translation>Standard</translation>
+        <translation type="vanished">Standard</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Administrator</source>
-        <translation>Administrator</translation>
+        <translation type="vanished">Administrator</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="130"/>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation type="vanished">Avbryt</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="137"/>
         <source>Add</source>
-        <translation>Legg til</translation>
+        <translation type="vanished">Legg til</translation>
     </message>
 </context>
 <context>
     <name>BluetoothPage</name>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="29"/>
         <source>Bluetooth</source>
-        <translation>Blåtann</translation>
+        <translation type="vanished">Blåtann</translation>
     </message>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="49"/>
         <source>Bluetooth is disabled</source>
-        <translation type="unfinished">Blåtann avskrudd</translation>
+        <translation type="obsolete">Blåtann avskrudd</translation>
     </message>
 </context>
 <context>
     <name>LanguagePage</name>
     <message>
-        <location filename="../src/qml/LanguagePage.qml" line="29"/>
         <source>Language</source>
-        <translation>Språk</translation>
+        <translation type="vanished">Språk</translation>
     </message>
 </context>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>Om</translation>
+        <translation type="vanished">Om</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="68"/>
         <source>Built on %1</source>
-        <translation type="unfinished">Bygd på %1</translation>
+        <translation type="obsolete">Bygd på %1</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="76"/>
         <source>System Version</source>
-        <translation>Systemversjon</translation>
+        <translation type="vanished">Systemversjon</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="81"/>
         <source>System Type</source>
-        <translation>Systemtype</translation>
+        <translation type="vanished">Systemtype</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="86"/>
         <source>Kernel Version</source>
-        <translation>Kjerneversjon</translation>
+        <translation type="vanished">Kjerneversjon</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="91"/>
         <source>Processor</source>
-        <translation>Prosessor</translation>
+        <translation type="vanished">Prosessor</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="96"/>
         <source>RAM</source>
-        <translation>Minne</translation>
+        <translation type="vanished">Minne</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="101"/>
         <source>Internal Storage</source>
-        <translation>Internlagring</translation>
+        <translation type="vanished">Internlagring</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="30"/>
         <source>Appearance</source>
-        <translation>Utseende</translation>
+        <translation type="vanished">Utseende</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="47"/>
         <source>Theme</source>
-        <translation>Drakt</translation>
+        <translation type="vanished">Drakt</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="59"/>
         <source>Light</source>
-        <translation>Lys</translation>
+        <translation type="vanished">Lys</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="66"/>
         <source>Dark</source>
-        <translation>Mørk</translation>
+        <translation type="vanished">Mørk</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="81"/>
         <source>Dim the wallpaper in dark theme</source>
-        <translation>Formørk bakgrunnsbilde i mørkt modus</translation>
+        <translation type="vanished">Formørk bakgrunnsbilde i mørkt modus</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="104"/>
         <source>Accent color</source>
-        <translation>Aksentfarge</translation>
+        <translation type="vanished">Aksentfarge</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="31"/>
         <source>Fonts</source>
-        <translation>Skrifter</translation>
+        <translation type="vanished">Skrifter</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="92"/>
         <source>General Font</source>
-        <translation>Generell skrift</translation>
+        <translation type="vanished">Generell skrift</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="109"/>
         <source>Fixed Font</source>
-        <translation>Fastbreddeskrift</translation>
+        <translation type="vanished">Fastbreddeskrift</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="126"/>
         <source>Font Size</source>
-        <translation>Skriftstørrelse</translation>
+        <translation type="vanished">Skriftstørrelse</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="187"/>
         <source>Hinting</source>
-        <translation>Hinting</translation>
+        <translation type="vanished">Hinting</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>Kantutjevning</translation>
+        <translation type="vanished">Kantutjevning</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="95"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="134"/>
         <source>Small</source>
-        <translation>Liten</translation>
+        <translation type="vanished">Liten</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="99"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="138"/>
         <source>Medium</source>
-        <translation>Middels</translation>
+        <translation type="vanished">Middels</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="103"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="142"/>
         <source>Large</source>
-        <translation>Stor</translation>
+        <translation type="vanished">Stor</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="107"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="146"/>
         <source>Huge</source>
-        <translation>Enorm</translation>
+        <translation type="vanished">Enorm</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="29"/>
         <source>Battery</source>
-        <translation>Batteri</translation>
+        <translation type="vanished">Batteri</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last hour</source>
-        <translation>Siste timen</translation>
+        <translation type="vanished">Siste timen</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 2 hours</source>
-        <translation>Siste to timer</translation>
+        <translation type="vanished">Siste to timer</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 12 hours</source>
-        <translation>Siste 12 timer</translation>
+        <translation type="vanished">Siste 12 timer</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 24 hours</source>
-        <translation>Siste 24 timer</translation>
+        <translation type="vanished">Siste 24 timer</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 48 hours</source>
-        <translation>Siste 48 timer</translation>
+        <translation type="vanished">Siste 48 timer</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 7 days</source>
-        <translation>Siste 7 dager</translation>
+        <translation type="vanished">Siste 7 dager</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="126"/>
         <source>History</source>
-        <translation>Historikk</translation>
+        <translation type="vanished">Historikk</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="159"/>
         <source>W</source>
-        <translation type="unfinished">W</translation>
+        <translation type="obsolete">W</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="181"/>
         <source>Health</source>
-        <translation>Helse</translation>
+        <translation type="vanished">Helse</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="200"/>
         <source>Poor</source>
-        <translation>Dårlig</translation>
+        <translation type="vanished">Dårlig</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="229"/>
         <source>Normal</source>
-        <translation>Normal</translation>
+        <translation type="vanished">Normal</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="258"/>
         <source>Excellent</source>
-        <translation>Utmerket</translation>
+        <translation type="vanished">Utmerket</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="280"/>
         <source>Last Charged to</source>
-        <translation>Sist endret til</translation>
+        <translation type="vanished">Sist endret til</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="286"/>
         <source>Maximum Capacity</source>
-        <translation>Maks. kapasitet</translation>
+        <translation type="vanished">Maks. kapasitet</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="298"/>
         <source>Show percentage in status bar</source>
-        <translation>Vis prosent i statusfelt</translation>
+        <translation type="vanished">Vis prosent i statusfelt</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="322"/>
         <source>No battery found</source>
-        <translation>Fant ikke noe batteri</translation>
+        <translation type="vanished">Fant ikke noe batteri</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="29"/>
         <source>Display</source>
-        <translation type="unfinished">Bildeskjerm</translation>
+        <translation type="obsolete">Bildeskjerm</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="63"/>
         <source>Brightness</source>
-        <translation>Lysstyrke</translation>
+        <translation type="vanished">Lysstyrke</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="116"/>
         <source>Screen</source>
-        <translation>Skjerm</translation>
+        <translation type="vanished">Skjerm</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="159"/>
         <source>Screen Name</source>
-        <translation>Skjermnavn</translation>
+        <translation type="vanished">Skjermnavn</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="168"/>
         <source>Resolution</source>
-        <translation>Oppløsning</translation>
+        <translation type="vanished">Oppløsning</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="187"/>
         <source>Refresh rate</source>
-        <translation>Oppdateringsfrekvens</translation>
+        <translation type="vanished">Oppdateringsfrekvens</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="207"/>
         <source>Rotation</source>
-        <translation>Rotasjon</translation>
+        <translation type="vanished">Rotasjon</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="251"/>
         <source>Enabled</source>
-        <translation type="unfinished">Påskrudd</translation>
+        <translation type="obsolete">Påskrudd</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="285"/>
         <source>Scale</source>
-        <translation>Skala</translation>
+        <translation type="vanished">Skala</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="354"/>
         <source>Need to log in again to take effect</source>
-        <translation type="unfinished">Logg inn igjen for å bruke endringene</translation>
+        <translation type="obsolete">Logg inn igjen for å bruke endringene</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="28"/>
         <source>Dock</source>
-        <translation>Dokk</translation>
+        <translation type="vanished">Dokk</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="44"/>
         <source>Position on screen</source>
-        <translation>Posisjon på skjermen</translation>
+        <translation type="vanished">Posisjon på skjermen</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="56"/>
         <source>Left</source>
-        <translation>Venstre</translation>
+        <translation type="vanished">Venstre</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="63"/>
         <source>Bottom</source>
-        <translation>Bunnen</translation>
+        <translation type="vanished">Bunnen</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="70"/>
         <source>Right</source>
-        <translation>Høyre</translation>
+        <translation type="vanished">Høyre</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="82"/>
         <source>Size</source>
-        <translation>Størrelse</translation>
+        <translation type="vanished">Størrelse</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="153"/>
         <source>Display mode</source>
-        <translation>Visningsmodus</translation>
+        <translation type="vanished">Visningsmodus</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="166"/>
         <source>Always show</source>
-        <translation>Alltid vis</translation>
+        <translation type="vanished">Alltid vis</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="170"/>
         <source>Auto hide</source>
-        <translation>Auto-skjul</translation>
+        <translation type="vanished">Auto-skjul</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="30"/>
         <source>Power</source>
-        <translation>Strømstyring</translation>
+        <translation type="vanished">Strømstyring</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="43"/>
         <source>Mode</source>
-        <translation>MOdus</translation>
+        <translation type="vanished">MOdus</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="53"/>
         <source>Power Save</source>
-        <translation>Energisparing</translation>
+        <translation type="vanished">Energisparing</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="59"/>
         <source>Balance</source>
-        <translation type="unfinished">Balanse</translation>
+        <translation type="obsolete">Balanse</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="65"/>
         <source>Performance</source>
-        <translation>Ytelse</translation>
+        <translation type="vanished">Ytelse</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="31"/>
         <source>User</source>
-        <translation>Bruker</translation>
+        <translation type="vanished">Bruker</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="80"/>
         <source>Add user</source>
-        <translation>Legg til bruker</translation>
+        <translation type="vanished">Legg til bruker</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="30"/>
         <source>Background</source>
-        <translation>Bakgrunn</translation>
+        <translation type="vanished">Bakgrunn</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="56"/>
         <source>Background type</source>
-        <translation>Bakgrunnstype</translation>
+        <translation type="vanished">Bakgrunnstype</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="77"/>
         <source>Picture</source>
-        <translation>Bilde</translation>
+        <translation type="vanished">Bilde</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="81"/>
         <source>Color</source>
-        <translation>Farge</translation>
+        <translation type="vanished">Farge</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/Main.qml" line="32"/>
         <source>WLAN</source>
-        <translation>Trådløsnett</translation>
+        <translation type="vanished">Trådløsnett</translation>
     </message>
     <message>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="32"/>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="71"/>
         <source>Bluetooth</source>
-        <translation type="unfinished">Blåtann</translation>
+        <translation type="obsolete">Blåtann</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wired/Main.qml" line="32"/>
-        <location filename="../src/qml/Wired/Main.qml" line="80"/>
         <source>Ethernet</source>
-        <translation>Ethernet</translation>
+        <translation type="vanished">Ethernet</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="30"/>
         <source>Application</source>
-        <translation>Program</translation>
+        <translation type="vanished">Program</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="42"/>
         <source>Default application</source>
-        <translation>Forvalgt program</translation>
+        <translation type="vanished">Forvalgt program</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>Nettleser</translation>
+        <translation type="vanished">Nettleser</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="60"/>
         <source>File manager</source>
-        <translation>Filbehandler</translation>
+        <translation type="vanished">Filbehandler</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="68"/>
         <source>Email</source>
-        <translation type="unfinished">E-post</translation>
+        <translation type="obsolete">E-post</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="76"/>
         <source>Terminal emulator</source>
-        <translation>Terminalemulator</translation>
+        <translation type="vanished">Terminalemulator</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="32"/>
-        <location filename="../src/qml/Hotspot/Main.qml" line="69"/>
         <source>Hotspot</source>
-        <translation type="unfinished">Tilgangsdeling</translation>
+        <translation type="obsolete">Tilgangsdeling</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="47"/>
         <source>Not supported</source>
-        <translation>Ikke støttet</translation>
+        <translation type="vanished">Ikke støttet</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="102"/>
         <source>SSID</source>
-        <translation>SSID</translation>
+        <translation type="vanished">SSID</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="113"/>
         <source>Password</source>
-        <translation type="unfinished">Passord</translation>
+        <translation type="obsolete">Passord</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="129"/>
         <source>Save</source>
-        <translation>Lagre</translation>
+        <translation type="vanished">Lagre</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="503"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="512"/>
         <source>Vendor default</source>
         <translation>Leverandørforvalg</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="505"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="514"/>
         <source>Medium</source>
         <translation type="unfinished">Middels</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="507"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="516"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="509"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="518"/>
         <source>Slight</source>
         <translation>Lett</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="511"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="520"/>
         <source>Full</source>
         <translation>Full</translation>
     </message>
@@ -534,192 +428,151 @@
 <context>
     <name>SideBar</name>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="131"/>
         <source>User</source>
-        <translation>Bruker</translation>
+        <translation type="vanished">Bruker</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="86"/>
         <source>Display</source>
-        <translation type="unfinished">Skjerm</translation>
+        <translation type="obsolete">Skjerm</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="52"/>
         <source>WLAN</source>
-        <translation>Trådløsnett</translation>
+        <translation type="vanished">Trådløsnett</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="57"/>
-        <location filename="../src/qml/SideBar.qml" line="66"/>
         <source>Network and connection</source>
-        <translation>Nettverk og tilkobling</translation>
+        <translation type="vanished">Nettverk og tilkobling</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="61"/>
         <source>Ethernet</source>
-        <translation>Ethernet</translation>
+        <translation type="vanished">Ethernet</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="91"/>
-        <location filename="../src/qml/SideBar.qml" line="100"/>
-        <location filename="../src/qml/SideBar.qml" line="109"/>
-        <location filename="../src/qml/SideBar.qml" line="118"/>
-        <location filename="../src/qml/SideBar.qml" line="127"/>
         <source>Display and appearance</source>
-        <translation>Skjerm og utseende</translation>
+        <translation type="vanished">Skjerm og utseende</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="95"/>
         <source>Appearance</source>
-        <translation>Utseende</translation>
+        <translation type="vanished">Utseende</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="104"/>
         <source>Fonts</source>
-        <translation>Skrifter</translation>
+        <translation type="vanished">Skrifter</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="113"/>
         <source>Background</source>
-        <translation>Bakgrunn</translation>
+        <translation type="vanished">Bakgrunn</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="122"/>
         <source>Dock</source>
-        <translation>Dokk</translation>
+        <translation type="vanished">Dokk</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="136"/>
-        <location filename="../src/qml/SideBar.qml" line="154"/>
-        <location filename="../src/qml/SideBar.qml" line="163"/>
-        <location filename="../src/qml/SideBar.qml" line="179"/>
         <source>System</source>
-        <translation>System</translation>
+        <translation type="vanished">System</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="149"/>
         <source>Language</source>
-        <translation>Språk</translation>
+        <translation type="vanished">Språk</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="158"/>
         <source>Battery</source>
-        <translation>Batteri</translation>
+        <translation type="vanished">Batteri</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="174"/>
         <source>About</source>
-        <translation>Om</translation>
+        <translation type="vanished">Om</translation>
     </message>
 </context>
 <context>
     <name>UserDelegateItem</name>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="124"/>
         <source>Currently logged</source>
-        <translation type="unfinished">Innlogget</translation>
+        <translation type="obsolete">Innlogget</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="165"/>
         <source>Automatic login</source>
-        <translation>Automatisk innlogging</translation>
+        <translation type="vanished">Automatisk innlogging</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="184"/>
         <source>Delete this user</source>
-        <translation>Slett denne brukeren</translation>
+        <translation type="vanished">Slett denne brukeren</translation>
     </message>
 </context>
 <context>
     <name>WifiItem</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="175"/>
         <source>Password</source>
-        <translation>Passord</translation>
+        <translation type="vanished">Passord</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="195"/>
         <source>Show password</source>
-        <translation>Vis passord</translation>
+        <translation type="vanished">Vis passord</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="204"/>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation type="vanished">Avbryt</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="210"/>
         <source>Connect</source>
-        <translation>Koble til</translation>
+        <translation type="vanished">Koble til</translation>
     </message>
 </context>
 <context>
     <name>WifiView</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiView.qml" line="35"/>
         <source>WLAN</source>
-        <translation>Trådløsnett</translation>
+        <translation type="vanished">Trådløsnett</translation>
     </message>
 </context>
 <context>
     <name>WirelessDetailsDialog</name>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="65"/>
         <source>Auto-Join</source>
-        <translation>Automatisk tilkobling</translation>
+        <translation type="vanished">Automatisk tilkobling</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="81"/>
         <source>Security</source>
-        <translation>Sikkerhet</translation>
+        <translation type="vanished">Sikkerhet</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="93"/>
         <source>Signal</source>
-        <translation>Signalstyrke</translation>
+        <translation type="vanished">Signalstyrke</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="105"/>
         <source>IPv4 Address</source>
-        <translation>IPv4-adresse</translation>
+        <translation type="vanished">IPv4-adresse</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="119"/>
         <source>IPv6 Address</source>
-        <translation>IPv6-adresse</translation>
+        <translation type="vanished">IPv6-adresse</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="133"/>
         <source>MAC Address</source>
-        <translation>MAC-adresse</translation>
+        <translation type="vanished">MAC-adresse</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="147"/>
         <source>Gateway</source>
-        <translation>Portner</translation>
+        <translation type="vanished">Portner</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="160"/>
         <source>DNS</source>
-        <translation>DNS</translation>
+        <translation type="vanished">DNS</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="177"/>
         <source>Close</source>
-        <translation>Lukk</translation>
+        <translation type="vanished">Lukk</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="183"/>
         <source>Forget this network</source>
-        <translation>Glem dette nettverket</translation>
+        <translation type="vanished">Glem dette nettverket</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/qml/main.qml" line="29"/>
         <source>Settings</source>
-        <translation>Innstillinger</translation>
+        <translation type="vanished">Innstillinger</translation>
     </message>
 </context>
 </TS>

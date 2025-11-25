@@ -4,560 +4,447 @@
 <context>
     <name>AddUserDialog</name>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="72"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="78"/>
         <source>User name</source>
-        <translation>إسم المستخدم</translation>
+        <translation type="vanished">إسم المستخدم</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="85"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="91"/>
         <source>Password</source>
-        <translation>كلمة المرور</translation>
+        <translation type="vanished">كلمة المرور</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="98"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="104"/>
         <source>Verify password</source>
-        <translation>التحقق من كلمة المرور</translation>
+        <translation type="vanished">التحقق من كلمة المرور</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="111"/>
         <source>Account type</source>
-        <translation>نوع الحساب</translation>
+        <translation type="vanished">نوع الحساب</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Standard</source>
-        <translation>اساسي</translation>
+        <translation type="vanished">اساسي</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Administrator</source>
-        <translation>المدير</translation>
+        <translation type="vanished">المدير</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="130"/>
         <source>Cancel</source>
-        <translation>إلغاء</translation>
+        <translation type="vanished">إلغاء</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="137"/>
         <source>Add</source>
-        <translation>اضف</translation>
+        <translation type="vanished">اضف</translation>
     </message>
 </context>
 <context>
     <name>BluetoothPage</name>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="29"/>
         <source>Bluetooth</source>
-        <translation>بلوتوث</translation>
+        <translation type="vanished">بلوتوث</translation>
     </message>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="49"/>
         <source>Bluetooth is disabled</source>
-        <translation>البلوتوث معطّل</translation>
+        <translation type="vanished">البلوتوث معطّل</translation>
     </message>
 </context>
 <context>
     <name>LanguagePage</name>
     <message>
-        <location filename="../src/qml/LanguagePage.qml" line="29"/>
         <source>Language</source>
-        <translation>اللغة</translation>
+        <translation type="vanished">اللغة</translation>
     </message>
 </context>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>حول</translation>
+        <translation type="vanished">حول</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="68"/>
         <source>Built on %1</source>
-        <translation>مبني على 1%</translation>
+        <translation type="vanished">مبني على 1%</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="76"/>
         <source>System Version</source>
-        <translation>اصدار النظام</translation>
+        <translation type="vanished">اصدار النظام</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="81"/>
         <source>System Type</source>
-        <translation>نوع النظام</translation>
+        <translation type="vanished">نوع النظام</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="86"/>
         <source>Kernel Version</source>
-        <translation>إصدار النواة</translation>
+        <translation type="vanished">إصدار النواة</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="91"/>
         <source>Processor</source>
-        <translation>المعالج</translation>
+        <translation type="vanished">المعالج</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="96"/>
         <source>RAM</source>
-        <translation>الذاكرة العشوائية</translation>
+        <translation type="vanished">الذاكرة العشوائية</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="101"/>
         <source>Internal Storage</source>
-        <translation>مساحة التخزين</translation>
+        <translation type="vanished">مساحة التخزين</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="30"/>
         <source>Appearance</source>
-        <translation>المظهر</translation>
+        <translation type="vanished">المظهر</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="48"/>
-        <location filename="../src/qml/Cursor/Main.qml" line="140"/>
         <source>Theme</source>
-        <translation>السمة</translation>
+        <translation type="vanished">السمة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="58"/>
         <source>Light</source>
-        <translation>فاتح</translation>
+        <translation type="vanished">فاتح</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="65"/>
         <source>Dark</source>
-        <translation>داكن</translation>
+        <translation type="vanished">داكن</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="78"/>
         <source>Dim the wallpaper in dark theme</source>
-        <translation>تعتيم خلفية الشاشة في السمة الداكنة</translation>
+        <translation type="vanished">تعتيم خلفية الشاشة في السمة الداكنة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="98"/>
         <source>Accent color</source>
-        <translation>اللون الثانوي</translation>
+        <translation type="vanished">اللون الثانوي</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="31"/>
         <source>Fonts</source>
-        <translation>الخطوط</translation>
+        <translation type="vanished">الخطوط</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="92"/>
         <source>General Font</source>
-        <translation>الخط العام</translation>
+        <translation type="vanished">الخط العام</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="109"/>
         <source>Fixed Font</source>
-        <translation>خط ثابت</translation>
+        <translation type="vanished">خط ثابت</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="126"/>
         <source>Font Size</source>
-        <translation>حجم الخط</translation>
+        <translation type="vanished">حجم الخط</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="187"/>
         <source>Hinting</source>
-        <translation>تلميح</translation>
+        <translation type="vanished">تلميح</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>مضاد التعرّج</translation>
+        <translation type="vanished">مضاد التعرّج</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="89"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="134"/>
         <source>Small</source>
-        <translation>صغير</translation>
+        <translation type="vanished">صغير</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="93"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="138"/>
         <source>Medium</source>
-        <translation>متوسط</translation>
+        <translation type="vanished">متوسط</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="97"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="142"/>
         <source>Large</source>
-        <translation>كبير</translation>
+        <translation type="vanished">كبير</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="101"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="146"/>
         <source>Huge</source>
-        <translation>ضخم</translation>
+        <translation type="vanished">ضخم</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="29"/>
         <source>Battery</source>
-        <translation>البطارية</translation>
+        <translation type="vanished">البطارية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last hour</source>
-        <translation>آخر ساعة</translation>
+        <translation type="vanished">آخر ساعة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 2 hours</source>
-        <translation>آخر ساعتين</translation>
+        <translation type="vanished">آخر ساعتين</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 12 hours</source>
-        <translation>آخر 12 ساعة</translation>
+        <translation type="vanished">آخر 12 ساعة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 24 hours</source>
-        <translation>آخر 24 ساعة</translation>
+        <translation type="vanished">آخر 24 ساعة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 48 hours</source>
-        <translation>آخر 48 ساعة</translation>
+        <translation type="vanished">آخر 48 ساعة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 7 days</source>
-        <translation>آخر 7 أيام</translation>
+        <translation type="vanished">آخر 7 أيام</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="126"/>
         <source>History</source>
-        <translation>السجل</translation>
+        <translation type="vanished">السجل</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="154"/>
         <source>W</source>
-        <translation>W</translation>
+        <translation type="vanished">W</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="175"/>
         <source>Health</source>
-        <translation>صحة البطارية</translation>
+        <translation type="vanished">صحة البطارية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="199"/>
         <source>Poor</source>
-        <translation>سيئة</translation>
+        <translation type="vanished">سيئة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="224"/>
         <source>Normal</source>
-        <translation>عادي</translation>
+        <translation type="vanished">عادي</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="249"/>
         <source>Excellent</source>
-        <translation>ممتاز</translation>
+        <translation type="vanished">ممتاز</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="258"/>
         <source>Last Charged to</source>
-        <translation>آخر شحنة لـ</translation>
+        <translation type="vanished">آخر شحنة لـ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="264"/>
         <source>Maximum Capacity</source>
-        <translation>القدرة الإستيعابية</translation>
+        <translation type="vanished">القدرة الإستيعابية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="272"/>
         <source>Show percentage in status bar</source>
-        <translation>عرض نسبة الشحن في شريط الحالة</translation>
+        <translation type="vanished">عرض نسبة الشحن في شريط الحالة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="296"/>
         <source>No battery found</source>
-        <translation>لم يتم العثور على بطارية</translation>
+        <translation type="vanished">لم يتم العثور على بطارية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="29"/>
         <source>Display</source>
-        <translation>العرض</translation>
+        <translation type="vanished">العرض</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="67"/>
         <source>Brightness</source>
-        <translation>السطوع</translation>
+        <translation type="vanished">السطوع</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="115"/>
         <source>Screen</source>
-        <translation>الشاشة</translation>
+        <translation type="vanished">الشاشة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="154"/>
         <source>Screen Name</source>
-        <translation>اسم الشاشة</translation>
+        <translation type="vanished">اسم الشاشة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="165"/>
         <source>Resolution</source>
-        <translation>الدقة</translation>
+        <translation type="vanished">الدقة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="184"/>
         <source>Refresh rate</source>
-        <translation>معدل التحديث</translation>
+        <translation type="vanished">معدل التحديث</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="204"/>
         <source>Rotation</source>
-        <translation>الدوران</translation>
+        <translation type="vanished">الدوران</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="248"/>
         <source>Enabled</source>
-        <translation>مفعلة</translation>
+        <translation type="vanished">مفعلة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="279"/>
         <source>Scale</source>
-        <translation>الحجم</translation>
+        <translation type="vanished">الحجم</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="346"/>
         <source>Need to log in again to take effect</source>
-        <translation>يجب تسجيل الدخول مجددأً لتطبيق التغييرات</translation>
+        <translation type="vanished">يجب تسجيل الدخول مجددأً لتطبيق التغييرات</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="28"/>
         <source>Dock</source>
-        <translation>الشريط السفلي</translation>
+        <translation type="vanished">الشريط السفلي</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="45"/>
         <source>Position on screen</source>
-        <translation>الموقع على الشاشة</translation>
+        <translation type="vanished">الموقع على الشاشة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="55"/>
         <source>Left</source>
-        <translation>يسار</translation>
+        <translation type="vanished">يسار</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="62"/>
         <source>Bottom</source>
-        <translation>أسفل</translation>
+        <translation type="vanished">أسفل</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="69"/>
         <source>Right</source>
-        <translation>يمين</translation>
+        <translation type="vanished">يمين</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="79"/>
         <source>Size</source>
-        <translation>الحجم</translation>
+        <translation type="vanished">الحجم</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="145"/>
         <source>Display mode</source>
-        <translation>طريقة العرض</translation>
+        <translation type="vanished">طريقة العرض</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="155"/>
         <source>Always show</source>
-        <translation>العرض دائماً</translation>
+        <translation type="vanished">العرض دائماً</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="159"/>
         <source>Auto hide</source>
-        <translation>إخفاء تلقائي</translation>
+        <translation type="vanished">إخفاء تلقائي</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="31"/>
         <source>Power</source>
-        <translation>الطاقة</translation>
+        <translation type="vanished">الطاقة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="48"/>
         <source>Mode</source>
-        <translation>الوضح</translation>
+        <translation type="vanished">الوضح</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="57"/>
         <source>Power Save</source>
-        <translation>توفير الطاقة</translation>
+        <translation type="vanished">توفير الطاقة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="70"/>
         <source>Performance</source>
-        <translation>ألاداء</translation>
+        <translation type="vanished">ألاداء</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="31"/>
         <source>User</source>
-        <translation>المستخدم</translation>
+        <translation type="vanished">المستخدم</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="100"/>
         <source>Add user</source>
-        <translation>إضافة مستخدم</translation>
+        <translation type="vanished">إضافة مستخدم</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="30"/>
         <source>Background</source>
-        <translation>الخلفية</translation>
+        <translation type="vanished">الخلفية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="50"/>
         <source>Background type</source>
-        <translation>نوع الخلفية</translation>
+        <translation type="vanished">نوع الخلفية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="66"/>
         <source>Picture</source>
-        <translation>صورة</translation>
+        <translation type="vanished">صورة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="70"/>
         <source>Color</source>
-        <translation>لون</translation>
+        <translation type="vanished">لون</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/Main.qml" line="32"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="32"/>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="71"/>
         <source>Bluetooth</source>
-        <translation>البلوتوث</translation>
+        <translation type="vanished">البلوتوث</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wired/Main.qml" line="32"/>
-        <location filename="../src/qml/Wired/Main.qml" line="80"/>
         <source>Ethernet</source>
-        <translation>الشبكة السلكية</translation>
+        <translation type="vanished">الشبكة السلكية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="30"/>
         <source>Application</source>
-        <translation>التطبيقات</translation>
+        <translation type="vanished">التطبيقات</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="42"/>
         <source>Default application</source>
-        <translation>التطبيقات الإفتراضية</translation>
+        <translation type="vanished">التطبيقات الإفتراضية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>متصفح الإنترنت</translation>
+        <translation type="vanished">متصفح الإنترنت</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="60"/>
         <source>File manager</source>
-        <translation>مدير الملفات</translation>
+        <translation type="vanished">مدير الملفات</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="68"/>
         <source>Email</source>
-        <translation>البريد</translation>
+        <translation type="vanished">البريد</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="76"/>
         <source>Terminal emulator</source>
-        <translation>محاكي الطرفية</translation>
+        <translation type="vanished">محاكي الطرفية</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="32"/>
-        <location filename="../src/qml/Hotspot/Main.qml" line="69"/>
         <source>Hotspot</source>
-        <translation>نقطة وصل</translation>
+        <translation type="vanished">نقطة وصل</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="47"/>
         <source>Not supported</source>
-        <translation>خاصية غير مدعومة</translation>
+        <translation type="vanished">خاصية غير مدعومة</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="102"/>
         <source>SSID</source>
-        <translation>SSID</translation>
+        <translation type="vanished">SSID</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="113"/>
         <source>Password</source>
-        <translation>كلمة المرور</translation>
+        <translation type="vanished">كلمة المرور</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="129"/>
         <source>Save</source>
-        <translation>حفظ</translation>
+        <translation type="vanished">حفظ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="31"/>
         <source>Mouse</source>
-        <translation>المأوس</translation>
+        <translation type="vanished">المأوس</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="61"/>
         <source>Left hand</source>
-        <translation>يد يسرى</translation>
+        <translation type="vanished">يد يسرى</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="74"/>
         <source>Natural scrolling</source>
-        <translation>تمرير طبيعي</translation>
+        <translation type="vanished">تمرير طبيعي</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="114"/>
         <source>Pointer speed</source>
-        <translation>سرعة المؤشر</translation>
+        <translation type="vanished">سرعة المؤشر</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="28"/>
         <source>Date &amp; Time</source>
-        <translation>التاريخ والوقت</translation>
+        <translation type="vanished">التاريخ والوقت</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="54"/>
         <source>Auto Sync</source>
-        <translation>مزامنة تلقائية</translation>
+        <translation type="vanished">مزامنة تلقائية</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="82"/>
         <source>Time Zone</source>
-        <translation>المنطقة الزمنية</translation>
+        <translation type="vanished">المنطقة الزمنية</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="503"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="512"/>
         <source>Vendor default</source>
         <translation>البائع الافتراضي</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="505"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="514"/>
         <source>Medium</source>
         <translation>متوسط</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="507"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="516"/>
         <source>None</source>
         <translation>بدون</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="509"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="518"/>
         <source>Slight</source>
         <translation>خفيف</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="511"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="520"/>
         <source>Full</source>
         <translation>كامل</translation>
     </message>
@@ -565,218 +452,170 @@
 <context>
     <name>SideBar</name>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="132"/>
         <source>User</source>
-        <translation>المستخدم</translation>
+        <translation type="vanished">المستخدم</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="87"/>
         <source>Display</source>
-        <translation>العرض</translation>
+        <translation type="vanished">العرض</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="53"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="58"/>
-        <location filename="../src/qml/SideBar.qml" line="67"/>
         <source>Network and connection</source>
-        <translation>الشبكات والاتصال</translation>
+        <translation type="vanished">الشبكات والاتصال</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="62"/>
         <source>Ethernet</source>
-        <translation>الشبكة السلكية</translation>
+        <translation type="vanished">الشبكة السلكية</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="92"/>
-        <location filename="../src/qml/SideBar.qml" line="101"/>
-        <location filename="../src/qml/SideBar.qml" line="110"/>
-        <location filename="../src/qml/SideBar.qml" line="119"/>
-        <location filename="../src/qml/SideBar.qml" line="128"/>
         <source>Display and appearance</source>
-        <translation>العرض والمظهر</translation>
+        <translation type="vanished">العرض والمظهر</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="96"/>
         <source>Appearance</source>
-        <translation>المظهر</translation>
+        <translation type="vanished">المظهر</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="141"/>
         <source>Mouse</source>
-        <translation>المأوس</translation>
+        <translation type="vanished">المأوس</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="105"/>
         <source>Fonts</source>
-        <translation>الخطوط</translation>
+        <translation type="vanished">الخطوط</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="114"/>
         <source>Background</source>
-        <translation>الخلفية</translation>
+        <translation type="vanished">الخلفية</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="123"/>
         <source>Dock</source>
-        <translation>الشريط السفلي</translation>
+        <translation type="vanished">الشريط السفلي</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="137"/>
-        <location filename="../src/qml/SideBar.qml" line="146"/>
-        <location filename="../src/qml/SideBar.qml" line="164"/>
-        <location filename="../src/qml/SideBar.qml" line="173"/>
-        <location filename="../src/qml/SideBar.qml" line="182"/>
-        <location filename="../src/qml/SideBar.qml" line="191"/>
-        <location filename="../src/qml/SideBar.qml" line="200"/>
         <source>System</source>
-        <translation>النظام</translation>
+        <translation type="vanished">النظام</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="159"/>
         <source>Date &amp; Time</source>
-        <translation>التاريخ والوقت</translation>
+        <translation type="vanished">التاريخ والوقت</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="168"/>
         <source>Language</source>
-        <translation>اللغة</translation>
+        <translation type="vanished">اللغة</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="177"/>
         <source>Battery</source>
-        <translation>البطارية</translation>
+        <translation type="vanished">البطارية</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="186"/>
         <source>Power</source>
-        <translation>الطاقة</translation>
+        <translation type="vanished">الطاقة</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="195"/>
         <source>About</source>
-        <translation>حول</translation>
+        <translation type="vanished">حول</translation>
     </message>
 </context>
 <context>
     <name>TimeZoneDialog</name>
     <message>
-        <location filename="../src/qml/DateTime/TimeZoneDialog.qml" line="171"/>
         <source>Set</source>
-        <translation>ضبط</translation>
+        <translation type="vanished">ضبط</translation>
     </message>
 </context>
 <context>
     <name>UserDelegateItem</name>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="130"/>
         <source>Currently logged</source>
-        <translation>مسجل دخول</translation>
+        <translation type="vanished">مسجل دخول</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="171"/>
         <source>Automatic login</source>
-        <translation>دخول تلقائي</translation>
+        <translation type="vanished">دخول تلقائي</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="190"/>
         <source>Delete this user</source>
-        <translation>حذف المستخدم</translation>
+        <translation type="vanished">حذف المستخدم</translation>
     </message>
 </context>
 <context>
     <name>WifiItem</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="177"/>
         <source>Password</source>
-        <translation>كلمة المرور</translation>
+        <translation type="vanished">كلمة المرور</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="197"/>
         <source>Show password</source>
-        <translation>عرض كلمة المرور</translation>
+        <translation type="vanished">عرض كلمة المرور</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="206"/>
         <source>Cancel</source>
-        <translation>إلغاء</translation>
+        <translation type="vanished">إلغاء</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="212"/>
         <source>Connect</source>
-        <translation>توصيل</translation>
+        <translation type="vanished">توصيل</translation>
     </message>
 </context>
 <context>
     <name>WifiView</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiView.qml" line="35"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
 </context>
 <context>
     <name>WirelessDetailsDialog</name>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="65"/>
         <source>Auto-Join</source>
-        <translation>إنضمام تلقائي</translation>
+        <translation type="vanished">إنضمام تلقائي</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="81"/>
         <source>Security</source>
-        <translation>الأمان</translation>
+        <translation type="vanished">الأمان</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="93"/>
         <source>Signal</source>
-        <translation>الإشارة</translation>
+        <translation type="vanished">الإشارة</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="105"/>
         <source>IPv4 Address</source>
-        <translation>عنوان IPv4</translation>
+        <translation type="vanished">عنوان IPv4</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="119"/>
         <source>IPv6 Address</source>
-        <translation>عنوان IPv6</translation>
+        <translation type="vanished">عنوان IPv6</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="133"/>
         <source>MAC Address</source>
-        <translation>عنوان MAC</translation>
+        <translation type="vanished">عنوان MAC</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="147"/>
         <source>Gateway</source>
-        <translation>بوابة الشبكة</translation>
+        <translation type="vanished">بوابة الشبكة</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="160"/>
         <source>DNS</source>
-        <translation>DNS</translation>
+        <translation type="vanished">DNS</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="177"/>
         <source>Close</source>
-        <translation>إغلاق</translation>
+        <translation type="vanished">إغلاق</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="183"/>
         <source>Forget this network</source>
-        <translation>إلغاء حفظ الشبكة</translation>
+        <translation type="vanished">إلغاء حفظ الشبكة</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/qml/main.qml" line="29"/>
         <source>Settings</source>
-        <translation>الإعدادات</translation>
+        <translation type="vanished">الإعدادات</translation>
     </message>
 </context>
 </TS>

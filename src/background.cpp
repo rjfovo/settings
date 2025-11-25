@@ -9,7 +9,12 @@ static QVariantList getBackgroundPaths()
         QString bg = it.next();
         list.append(QVariant(bg));
     }
-    std::sort(list.begin(), list.end());
+    std::sort(list.begin(), list.end(), [](const QVariant &a, const QVariant &b) {
+        // 根据实际数据类型选择合适的比较方式
+        return a.toString() < b.toString(); // 如果是字符串
+        // 或者 return a.toInt() < b.toInt(); // 如果是整数
+        // 或者 return a.toReal() < b.toReal(); // 如果是浮点数
+    });
     return list;
 }
 

@@ -4,600 +4,479 @@
 <context>
     <name>AddUserDialog</name>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="72"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="78"/>
         <source>User name</source>
-        <translation>ユーザー名</translation>
+        <translation type="vanished">ユーザー名</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="85"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="91"/>
         <source>Password</source>
-        <translation>パスワード</translation>
+        <translation type="vanished">パスワード</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="98"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="104"/>
         <source>Verify password</source>
-        <translation>パスワードの確認</translation>
+        <translation type="vanished">パスワードの確認</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="111"/>
         <source>Account type</source>
-        <translation>アカウントの種類</translation>
+        <translation type="vanished">アカウントの種類</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Standard</source>
-        <translation>標準</translation>
+        <translation type="vanished">標準</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Administrator</source>
-        <translation>管理者</translation>
+        <translation type="vanished">管理者</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="130"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation type="vanished">キャンセル</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="137"/>
         <source>Add</source>
-        <translation>追加</translation>
+        <translation type="vanished">追加</translation>
     </message>
 </context>
 <context>
     <name>BluetoothPage</name>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="29"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="49"/>
         <source>Bluetooth is disabled</source>
-        <translation>Bluetoothは無効です</translation>
+        <translation type="vanished">Bluetoothは無効です</translation>
     </message>
 </context>
 <context>
     <name>LanguagePage</name>
     <message>
-        <location filename="../src/qml/LanguagePage.qml" line="29"/>
         <source>Language</source>
-        <translation>言語</translation>
+        <translation type="vanished">言語</translation>
     </message>
 </context>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>バージョン情報</translation>
+        <translation type="vanished">バージョン情報</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="68"/>
         <source>Built on %1</source>
-        <translation>%1の上に構築される</translation>
+        <translation type="vanished">%1の上に構築される</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="79"/>
         <source>System Version</source>
-        <translation>システムバージョン</translation>
+        <translation type="vanished">システムバージョン</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="84"/>
         <source>System Type</source>
-        <translation>システムタイプ</translation>
+        <translation type="vanished">システムタイプ</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="89"/>
         <source>Kernel Version</source>
-        <translation>カーネルバージョン</translation>
+        <translation type="vanished">カーネルバージョン</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="94"/>
         <source>Processor</source>
-        <translation>プロセッサー</translation>
+        <translation type="vanished">プロセッサー</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="99"/>
         <source>RAM</source>
-        <translation>メモリ</translation>
+        <translation type="vanished">メモリ</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="104"/>
         <source>Internal Storage</source>
-        <translation>内部ストレージ</translation>
+        <translation type="vanished">内部ストレージ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="30"/>
         <source>Appearance</source>
-        <translation>外観</translation>
+        <translation type="vanished">外観</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="48"/>
-        <location filename="../src/qml/Cursor/Main.qml" line="140"/>
         <source>Theme</source>
-        <translation>テーマ</translation>
+        <translation type="vanished">テーマ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="58"/>
         <source>Light</source>
-        <translation>ライト</translation>
+        <translation type="vanished">ライト</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="65"/>
         <source>Dark</source>
-        <translation>ダーク</translation>
+        <translation type="vanished">ダーク</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="78"/>
         <source>Dim the wallpaper in dark theme</source>
-        <translation>ダークテーマで壁紙を暗くする</translation>
+        <translation type="vanished">ダークテーマで壁紙を暗くする</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="98"/>
         <source>System effects</source>
-        <translation>システム効果</translation>
+        <translation type="vanished">システム効果</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="121"/>
         <source>Minimize animation</source>
-        <translation>最小化アニメーション</translation>
+        <translation type="vanished">最小化アニメーション</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="130"/>
         <source>Default</source>
-        <translation>デフォルト</translation>
+        <translation type="vanished">デフォルト</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="134"/>
         <source>Magic Lamp</source>
-        <translation>魔法のランプ</translation>
+        <translation type="vanished">魔法のランプ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="142"/>
         <source>Accent color</source>
-        <translation>アクセントカラー</translation>
+        <translation type="vanished">アクセントカラー</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="31"/>
         <source>Fonts</source>
-        <translation>フォント</translation>
+        <translation type="vanished">フォント</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="92"/>
         <source>General Font</source>
-        <translation>標準フォント</translation>
+        <translation type="vanished">標準フォント</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="109"/>
         <source>Fixed Font</source>
-        <translation>等幅フォント</translation>
+        <translation type="vanished">等幅フォント</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="126"/>
         <source>Font Size</source>
-        <translation>フォントサイズ</translation>
+        <translation type="vanished">フォントサイズ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="187"/>
         <source>Hinting</source>
-        <translation>ヒンティング</translation>
+        <translation type="vanished">ヒンティング</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>アンチエイリアス</translation>
+        <translation type="vanished">アンチエイリアス</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="89"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="134"/>
         <source>Small</source>
-        <translation>小さい</translation>
+        <translation type="vanished">小さい</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="93"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="138"/>
         <source>Medium</source>
-        <translation>普通</translation>
+        <translation type="vanished">普通</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="97"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="142"/>
         <source>Large</source>
-        <translation>大きい</translation>
+        <translation type="vanished">大きい</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="101"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="146"/>
         <source>Huge</source>
-        <translation>最大</translation>
+        <translation type="vanished">最大</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="29"/>
         <source>Battery</source>
-        <translation>バッテリー</translation>
+        <translation type="vanished">バッテリー</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last hour</source>
-        <translation>最近の1時間</translation>
+        <translation type="vanished">最近の1時間</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 2 hours</source>
-        <translation>最近の2時間</translation>
+        <translation type="vanished">最近の2時間</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 12 hours</source>
-        <translation>最近の12時間</translation>
+        <translation type="vanished">最近の12時間</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 24 hours</source>
-        <translation>最近の24時間</translation>
+        <translation type="vanished">最近の24時間</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 48 hours</source>
-        <translation>最近の48時間</translation>
+        <translation type="vanished">最近の48時間</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 7 days</source>
-        <translation>最近の7日間</translation>
+        <translation type="vanished">最近の7日間</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="126"/>
         <source>History</source>
-        <translation>履歴</translation>
+        <translation type="vanished">履歴</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="154"/>
         <source>W</source>
-        <translation>ワット</translation>
+        <translation type="vanished">ワット</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="175"/>
         <source>Health</source>
-        <translation>動作状態</translation>
+        <translation type="vanished">動作状態</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="199"/>
         <source>Poor</source>
-        <translation>悪い</translation>
+        <translation type="vanished">悪い</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="224"/>
         <source>Normal</source>
-        <translation>ノーマル</translation>
+        <translation type="vanished">ノーマル</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="249"/>
         <source>Excellent</source>
-        <translation>エクセレント</translation>
+        <translation type="vanished">エクセレント</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="258"/>
         <source>Last Charged to</source>
-        <translation>最近の充電は</translation>
+        <translation type="vanished">最近の充電は</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="264"/>
         <source>Maximum Capacity</source>
-        <translation>最大容量</translation>
+        <translation type="vanished">最大容量</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="272"/>
         <source>Show percentage in status bar</source>
-        <translation>ステータスバーにパーセンテージを表示</translation>
+        <translation type="vanished">ステータスバーにパーセンテージを表示</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="296"/>
         <source>No battery found</source>
-        <translation>バッテリーが見つかりません</translation>
+        <translation type="vanished">バッテリーが見つかりません</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="29"/>
         <source>Display</source>
-        <translation>ディスプレイ</translation>
+        <translation type="vanished">ディスプレイ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="67"/>
         <source>Brightness</source>
-        <translation>明るさ</translation>
+        <translation type="vanished">明るさ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="124"/>
         <source>Screen</source>
-        <translation>画面</translation>
+        <translation type="vanished">画面</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="163"/>
         <source>Screen Name</source>
-        <translation>画面名</translation>
+        <translation type="vanished">画面名</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="174"/>
         <source>Resolution</source>
-        <translation>解像度</translation>
+        <translation type="vanished">解像度</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="193"/>
         <source>Refresh rate</source>
-        <translation>リフレッシュレート</translation>
+        <translation type="vanished">リフレッシュレート</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="213"/>
         <source>Rotation</source>
-        <translation>画面の向き</translation>
+        <translation type="vanished">画面の向き</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="257"/>
         <source>Enabled</source>
-        <translation>有効</translation>
+        <translation type="vanished">有効</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="288"/>
         <source>Scale</source>
-        <translation>拡大/縮小</translation>
+        <translation type="vanished">拡大/縮小</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="28"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation type="vanished">Dock</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="45"/>
         <source>Position on screen</source>
-        <translation>画面上の位置</translation>
+        <translation type="vanished">画面上の位置</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="55"/>
         <source>Left</source>
-        <translation>左</translation>
+        <translation type="vanished">左</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="62"/>
         <source>Bottom</source>
-        <translation>下</translation>
+        <translation type="vanished">下</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="69"/>
         <source>Right</source>
-        <translation>右</translation>
+        <translation type="vanished">右</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="79"/>
         <source>Size</source>
-        <translation>サイズ</translation>
+        <translation type="vanished">サイズ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="145"/>
         <source>Display mode</source>
-        <translation>画面モード</translation>
+        <translation type="vanished">画面モード</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="155"/>
         <source>Always show</source>
-        <translation>常に表示</translation>
+        <translation type="vanished">常に表示</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="159"/>
         <source>Always hide</source>
-        <translation>常に隠す</translation>
+        <translation type="vanished">常に隠す</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="163"/>
         <source>Smart hide</source>
-        <translation>賢く隠す</translation>
+        <translation type="vanished">賢く隠す</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="31"/>
         <source>Power</source>
-        <translation>電源</translation>
+        <translation type="vanished">電源</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="48"/>
         <source>Mode</source>
-        <translation>モード</translation>
+        <translation type="vanished">モード</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="57"/>
         <source>Power Save</source>
-        <translation>省電力</translation>
+        <translation type="vanished">省電力</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="70"/>
         <source>Performance</source>
-        <translation>パフォーマンス</translation>
+        <translation type="vanished">パフォーマンス</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="31"/>
         <source>User</source>
-        <translation>ユーザー</translation>
+        <translation type="vanished">ユーザー</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="100"/>
         <source>Add user</source>
-        <translation>ユーザーの追加</translation>
+        <translation type="vanished">ユーザーの追加</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="30"/>
         <source>Background</source>
-        <translation>背景</translation>
+        <translation type="vanished">背景</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="50"/>
         <source>Background type</source>
-        <translation>背景の種類</translation>
+        <translation type="vanished">背景の種類</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="66"/>
         <source>Picture</source>
-        <translation>画像</translation>
+        <translation type="vanished">画像</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="70"/>
         <source>Color</source>
-        <translation>単色</translation>
+        <translation type="vanished">単色</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/Main.qml" line="32"/>
         <source>WLAN</source>
-        <translation>無線LAN</translation>
+        <translation type="vanished">無線LAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="32"/>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="71"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wired/Main.qml" line="32"/>
-        <location filename="../src/qml/Wired/Main.qml" line="80"/>
         <source>Ethernet</source>
-        <translation>イーサーネット</translation>
+        <translation type="vanished">イーサーネット</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="30"/>
         <source>Application</source>
-        <translation>アプリケーション</translation>
+        <translation type="vanished">アプリケーション</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="42"/>
         <source>Default application</source>
-        <translation>規定のアプリケーション</translation>
+        <translation type="vanished">規定のアプリケーション</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>ウェブブラウザー</translation>
+        <translation type="vanished">ウェブブラウザー</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="60"/>
         <source>File manager</source>
-        <translation>ファイルマネージャー</translation>
+        <translation type="vanished">ファイルマネージャー</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="68"/>
         <source>Email</source>
-        <translation>メールクライアント</translation>
+        <translation type="vanished">メールクライアント</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="76"/>
         <source>Terminal emulator</source>
-        <translation>端末エミュレータ</translation>
+        <translation type="vanished">端末エミュレータ</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="32"/>
-        <location filename="../src/qml/Hotspot/Main.qml" line="69"/>
         <source>Hotspot</source>
-        <translation>ホットスポット</translation>
+        <translation type="vanished">ホットスポット</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="47"/>
         <source>Not supported</source>
-        <translation>サポートされていません</translation>
+        <translation type="vanished">サポートされていません</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="102"/>
         <source>SSID</source>
-        <translation>SSID</translation>
+        <translation type="vanished">SSID</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="113"/>
         <source>Password</source>
-        <translation>パスワード</translation>
+        <translation type="vanished">パスワード</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="129"/>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation type="vanished">保存</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="31"/>
         <source>Mouse</source>
-        <translation>マウス</translation>
+        <translation type="vanished">マウス</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="61"/>
         <source>Left hand</source>
-        <translation>左利き</translation>
+        <translation type="vanished">左利き</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="74"/>
         <source>Natural scrolling</source>
-        <translation>ナチュラルスクロール</translation>
+        <translation type="vanished">ナチュラルスクロール</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="114"/>
         <source>Pointer speed</source>
-        <translation>ポインター速度</translation>
+        <translation type="vanished">ポインター速度</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="28"/>
         <source>Date &amp; Time</source>
-        <translation>日付と時刻</translation>
+        <translation type="vanished">日付と時刻</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="54"/>
         <source>Auto Sync</source>
-        <translation>自動同期</translation>
+        <translation type="vanished">自動同期</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="83"/>
         <source>Time Zone</source>
-        <translation>タイムゾーン</translation>
+        <translation type="vanished">タイムゾーン</translation>
     </message>
     <message>
-        <location filename="../src/qml/Touchpad/Main.qml" line="28"/>
         <source>Touchpad</source>
-        <translation>タッチパッド</translation>
+        <translation type="vanished">タッチパッド</translation>
     </message>
     <message>
-        <location filename="../src/qml/Touchpad/Main.qml" line="52"/>
         <source>Enable</source>
-        <translation>有効</translation>
+        <translation type="vanished">有効</translation>
     </message>
     <message>
-        <location filename="../src/qml/Touchpad/Main.qml" line="70"/>
         <source>Tap to click</source>
-        <translation>タップでクリック</translation>
+        <translation type="vanished">タップでクリック</translation>
     </message>
     <message>
-        <location filename="../src/qml/Touchpad/Main.qml" line="87"/>
         <source>Pointer acceleration</source>
-        <translation>ポインタの速度</translation>
+        <translation type="vanished">ポインタの速度</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="503"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="512"/>
         <source>Vendor default</source>
         <translation>ベンダー規定</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="505"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="514"/>
         <source>Medium</source>
         <translation>普通</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="507"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="516"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="509"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="518"/>
         <source>Slight</source>
         <translation>わずか</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="511"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="520"/>
         <source>Full</source>
         <translation>完全</translation>
     </message>
@@ -605,229 +484,178 @@
 <context>
     <name>SideBar</name>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="134"/>
         <source>User</source>
-        <translation>ユーザー</translation>
+        <translation type="vanished">ユーザー</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="89"/>
         <source>Display</source>
-        <translation>ディスプレイ</translation>
+        <translation type="vanished">ディスプレイ</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="55"/>
         <source>WLAN</source>
-        <translation>無線LAN</translation>
+        <translation type="vanished">無線LAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="60"/>
-        <location filename="../src/qml/SideBar.qml" line="69"/>
         <source>Network and connection</source>
-        <translation>ネットワークと接続</translation>
+        <translation type="vanished">ネットワークと接続</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="64"/>
         <source>Ethernet</source>
-        <translation>有線LAN</translation>
+        <translation type="vanished">有線LAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="94"/>
-        <location filename="../src/qml/SideBar.qml" line="103"/>
-        <location filename="../src/qml/SideBar.qml" line="112"/>
-        <location filename="../src/qml/SideBar.qml" line="121"/>
-        <location filename="../src/qml/SideBar.qml" line="130"/>
         <source>Display and appearance</source>
-        <translation>ディスプレイと外観</translation>
+        <translation type="vanished">ディスプレイと外観</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="98"/>
         <source>Appearance</source>
-        <translation>外観</translation>
+        <translation type="vanished">外観</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="143"/>
         <source>Mouse</source>
-        <translation>マウス</translation>
+        <translation type="vanished">マウス</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="107"/>
         <source>Fonts</source>
-        <translation>フォント</translation>
+        <translation type="vanished">フォント</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="116"/>
         <source>Background</source>
-        <translation>背景</translation>
+        <translation type="vanished">背景</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="125"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation type="vanished">Dock</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="139"/>
-        <location filename="../src/qml/SideBar.qml" line="148"/>
-        <location filename="../src/qml/SideBar.qml" line="157"/>
-        <location filename="../src/qml/SideBar.qml" line="175"/>
-        <location filename="../src/qml/SideBar.qml" line="193"/>
-        <location filename="../src/qml/SideBar.qml" line="202"/>
-        <location filename="../src/qml/SideBar.qml" line="211"/>
-        <location filename="../src/qml/SideBar.qml" line="220"/>
         <source>System</source>
-        <translation>システム</translation>
+        <translation type="vanished">システム</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="152"/>
         <source>Touchpad</source>
-        <translation>タッチパッド</translation>
+        <translation type="vanished">タッチパッド</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="170"/>
         <source>Date &amp; Time</source>
-        <translation>日付と時刻</translation>
+        <translation type="vanished">日付と時刻</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="188"/>
         <source>Language</source>
-        <translation>言語</translation>
+        <translation type="vanished">言語</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="197"/>
         <source>Battery</source>
-        <translation>バッテリー</translation>
+        <translation type="vanished">バッテリー</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="206"/>
         <source>Power</source>
-        <translation>電源</translation>
+        <translation type="vanished">電源</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="215"/>
         <source>About</source>
-        <translation>バージョン情報</translation>
+        <translation type="vanished">バージョン情報</translation>
     </message>
 </context>
 <context>
     <name>TimeZoneDialog</name>
     <message>
-        <location filename="../src/qml/DateTime/TimeZoneDialog.qml" line="160"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation type="vanished">キャンセル</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/TimeZoneDialog.qml" line="165"/>
         <source>Set</source>
-        <translation>設定</translation>
+        <translation type="vanished">設定</translation>
     </message>
 </context>
 <context>
     <name>UserDelegateItem</name>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="130"/>
         <source>Currently logged</source>
-        <translation>現在ログイン中</translation>
+        <translation type="vanished">現在ログイン中</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="171"/>
         <source>Automatic login</source>
-        <translation>自動ログイン</translation>
+        <translation type="vanished">自動ログイン</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="190"/>
         <source>Delete this user</source>
-        <translation>このユーザーを削除する</translation>
+        <translation type="vanished">このユーザーを削除する</translation>
     </message>
 </context>
 <context>
     <name>WifiItem</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="177"/>
         <source>Password</source>
-        <translation>パスワード</translation>
+        <translation type="vanished">パスワード</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="197"/>
         <source>Show password</source>
-        <translation>パスワードを表示</translation>
+        <translation type="vanished">パスワードを表示</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="206"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation type="vanished">キャンセル</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="212"/>
         <source>Connect</source>
-        <translation>接続</translation>
+        <translation type="vanished">接続</translation>
     </message>
 </context>
 <context>
     <name>WifiView</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiView.qml" line="35"/>
         <source>WLAN</source>
-        <translation>無線LAN</translation>
+        <translation type="vanished">無線LAN</translation>
     </message>
 </context>
 <context>
     <name>WirelessDetailsDialog</name>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="65"/>
         <source>Auto-Join</source>
-        <translation>自動的にネットワークに参加</translation>
+        <translation type="vanished">自動的にネットワークに参加</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="81"/>
         <source>Security</source>
-        <translation>セキュリティ</translation>
+        <translation type="vanished">セキュリティ</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="93"/>
         <source>Signal</source>
-        <translation>信号</translation>
+        <translation type="vanished">信号</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="105"/>
         <source>IPv4 Address</source>
-        <translation>IPv4アドレス</translation>
+        <translation type="vanished">IPv4アドレス</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="119"/>
         <source>IPv6 Address</source>
-        <translation>IPv6アドレス</translation>
+        <translation type="vanished">IPv6アドレス</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="133"/>
         <source>MAC Address</source>
-        <translation>MACアドレス</translation>
+        <translation type="vanished">MACアドレス</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="147"/>
         <source>Gateway</source>
-        <translation>ゲートウェイ</translation>
+        <translation type="vanished">ゲートウェイ</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="160"/>
         <source>DNS</source>
-        <translation>DNS</translation>
+        <translation type="vanished">DNS</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="177"/>
         <source>Close</source>
-        <translation>閉じる</translation>
+        <translation type="vanished">閉じる</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="183"/>
         <source>Forget this network</source>
-        <translation>このネットワークを忘れる</translation>
+        <translation type="vanished">このネットワークを忘れる</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/qml/main.qml" line="29"/>
         <source>Settings</source>
-        <translation>設定</translation>
+        <translation type="vanished">設定</translation>
     </message>
 </context>
 </TS>

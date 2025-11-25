@@ -4,530 +4,423 @@
 <context>
     <name>AddUserDialog</name>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="72"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="78"/>
         <source>User name</source>
-        <translation>Потребителско име</translation>
+        <translation type="vanished">Потребителско име</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="85"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="91"/>
         <source>Password</source>
-        <translation>Парола</translation>
+        <translation type="vanished">Парола</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="98"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="104"/>
         <source>Verify password</source>
-        <translation>Потвърждаване на паролата</translation>
+        <translation type="vanished">Потвърждаване на паролата</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="111"/>
         <source>Account type</source>
-        <translation>Вид на акаут</translation>
+        <translation type="vanished">Вид на акаут</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Standard</source>
-        <translation>Стандартен</translation>
+        <translation type="vanished">Стандартен</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Administrator</source>
-        <translation>Администратор</translation>
+        <translation type="vanished">Администратор</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="130"/>
         <source>Cancel</source>
-        <translation>Отказ</translation>
+        <translation type="vanished">Отказ</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="137"/>
         <source>Add</source>
-        <translation>Добавяне</translation>
+        <translation type="vanished">Добавяне</translation>
     </message>
 </context>
 <context>
     <name>BluetoothPage</name>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="29"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="49"/>
         <source>Bluetooth is disabled</source>
-        <translation>Bluetooth е изключен</translation>
+        <translation type="vanished">Bluetooth е изключен</translation>
     </message>
 </context>
 <context>
     <name>LanguagePage</name>
     <message>
-        <location filename="../src/qml/LanguagePage.qml" line="29"/>
         <source>Language</source>
-        <translation>Език</translation>
+        <translation type="vanished">Език</translation>
     </message>
 </context>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>Относно</translation>
+        <translation type="vanished">Относно</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="68"/>
         <source>Built on %1</source>
-        <translation>Създадена на %1</translation>
+        <translation type="vanished">Създадена на %1</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="76"/>
         <source>System Version</source>
-        <translation>Версия на Системата</translation>
+        <translation type="vanished">Версия на Системата</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="81"/>
         <source>System Type</source>
-        <translation>Вид на Системата</translation>
+        <translation type="vanished">Вид на Системата</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="86"/>
         <source>Kernel Version</source>
-        <translation>Версия на Kernel</translation>
+        <translation type="vanished">Версия на Kernel</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="91"/>
         <source>Processor</source>
-        <translation>Процесор</translation>
+        <translation type="vanished">Процесор</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="96"/>
         <source>RAM</source>
-        <translation>RAM</translation>
+        <translation type="vanished">RAM</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="101"/>
         <source>Internal Storage</source>
-        <translation>Вътрешна Памет</translation>
+        <translation type="vanished">Вътрешна Памет</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="30"/>
         <source>Appearance</source>
-        <translation>Облик</translation>
+        <translation type="vanished">Облик</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="47"/>
-        <location filename="../src/qml/Cursor/Main.qml" line="47"/>
         <source>Theme</source>
-        <translation>Тема</translation>
+        <translation type="vanished">Тема</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="59"/>
         <source>Light</source>
-        <translation>Светла</translation>
+        <translation type="vanished">Светла</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="66"/>
         <source>Dark</source>
-        <translation>Тъмна</translation>
+        <translation type="vanished">Тъмна</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="81"/>
         <source>Dim the wallpaper in dark theme</source>
-        <translation>Затъмняване на тапета при тъмна тема</translation>
+        <translation type="vanished">Затъмняване на тапета при тъмна тема</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="104"/>
         <source>Accent color</source>
-        <translation>Цвят на Акцент</translation>
+        <translation type="vanished">Цвят на Акцент</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="31"/>
         <source>Fonts</source>
-        <translation>Шрифтове</translation>
+        <translation type="vanished">Шрифтове</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="92"/>
         <source>General Font</source>
-        <translation>Основен шрифт</translation>
+        <translation type="vanished">Основен шрифт</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="109"/>
         <source>Fixed Font</source>
-        <translation>Фиксиран шрифт</translation>
+        <translation type="vanished">Фиксиран шрифт</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="126"/>
         <source>Font Size</source>
-        <translation>Размер на шрифта</translation>
+        <translation type="vanished">Размер на шрифта</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="187"/>
         <source>Hinting</source>
-        <translation>Подсказване</translation>
+        <translation type="vanished">Подсказване</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>Заглаждане на текстурите</translation>
+        <translation type="vanished">Заглаждане на текстурите</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="95"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="134"/>
         <source>Small</source>
-        <translation>Малък</translation>
+        <translation type="vanished">Малък</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="99"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="138"/>
         <source>Medium</source>
-        <translation>Среден</translation>
+        <translation type="vanished">Среден</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="103"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="142"/>
         <source>Large</source>
-        <translation>Голям</translation>
+        <translation type="vanished">Голям</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="107"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="146"/>
         <source>Huge</source>
-        <translation>Огромен</translation>
+        <translation type="vanished">Огромен</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="29"/>
         <source>Battery</source>
-        <translation>Батерия</translation>
+        <translation type="vanished">Батерия</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last hour</source>
-        <translation>За последния час</translation>
+        <translation type="vanished">За последния час</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 2 hours</source>
-        <translation>За последните 2 часа</translation>
+        <translation type="vanished">За последните 2 часа</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 12 hours</source>
-        <translation>За последните 12 часа</translation>
+        <translation type="vanished">За последните 12 часа</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 24 hours</source>
-        <translation>За последните 24 часа</translation>
+        <translation type="vanished">За последните 24 часа</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 48 hours</source>
-        <translation>За последните 48 часа</translation>
+        <translation type="vanished">За последните 48 часа</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 7 days</source>
-        <translation>За последните 7 дни</translation>
+        <translation type="vanished">За последните 7 дни</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="126"/>
         <source>History</source>
-        <translation>История</translation>
+        <translation type="vanished">История</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="159"/>
         <source>W</source>
-        <translation>W</translation>
+        <translation type="vanished">W</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="181"/>
         <source>Health</source>
-        <translation>Здраве</translation>
+        <translation type="vanished">Здраве</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="209"/>
         <source>Poor</source>
-        <translation>Лошо</translation>
+        <translation type="vanished">Лошо</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="234"/>
         <source>Normal</source>
-        <translation>Нормално</translation>
+        <translation type="vanished">Нормално</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="259"/>
         <source>Excellent</source>
-        <translation>Отлично</translation>
+        <translation type="vanished">Отлично</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="268"/>
         <source>Last Charged to</source>
-        <translation>Последно зареждане до</translation>
+        <translation type="vanished">Последно зареждане до</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="274"/>
         <source>Maximum Capacity</source>
-        <translation>Максимален капацитет</translation>
+        <translation type="vanished">Максимален капацитет</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="286"/>
         <source>Show percentage in status bar</source>
-        <translation>Показване на проценти в лентата на състоянието</translation>
+        <translation type="vanished">Показване на проценти в лентата на състоянието</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="310"/>
         <source>No battery found</source>
-        <translation>Няма открита батерия</translation>
+        <translation type="vanished">Няма открита батерия</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="29"/>
         <source>Display</source>
-        <translation>Дисплей</translation>
+        <translation type="vanished">Дисплей</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="63"/>
         <source>Brightness</source>
-        <translation>Яркост</translation>
+        <translation type="vanished">Яркост</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="117"/>
         <source>Screen</source>
-        <translation>Екран</translation>
+        <translation type="vanished">Екран</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="160"/>
         <source>Screen Name</source>
-        <translation>Име на екран</translation>
+        <translation type="vanished">Име на екран</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="171"/>
         <source>Resolution</source>
-        <translation>Резолюция</translation>
+        <translation type="vanished">Резолюция</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="190"/>
         <source>Refresh rate</source>
-        <translation>Честота на опресняване</translation>
+        <translation type="vanished">Честота на опресняване</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="210"/>
         <source>Rotation</source>
-        <translation>Завъртане</translation>
+        <translation type="vanished">Завъртане</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="254"/>
         <source>Enabled</source>
-        <translation>Включено</translation>
+        <translation type="vanished">Включено</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="288"/>
         <source>Scale</source>
-        <translation>Мащаб</translation>
+        <translation type="vanished">Мащаб</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="357"/>
         <source>Need to log in again to take effect</source>
-        <translation>За да се приложи ефекта, трябва да влезете оново</translation>
+        <translation type="vanished">За да се приложи ефекта, трябва да влезете оново</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="28"/>
         <source>Dock</source>
-        <translation>Док</translation>
+        <translation type="vanished">Док</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="44"/>
         <source>Position on screen</source>
-        <translation>Позиция на екрана</translation>
+        <translation type="vanished">Позиция на екрана</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="56"/>
         <source>Left</source>
-        <translation>Отляво</translation>
+        <translation type="vanished">Отляво</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="63"/>
         <source>Bottom</source>
-        <translation>Отдолу</translation>
+        <translation type="vanished">Отдолу</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="70"/>
         <source>Right</source>
-        <translation>Отдясно</translation>
+        <translation type="vanished">Отдясно</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="82"/>
         <source>Size</source>
-        <translation>Размер</translation>
+        <translation type="vanished">Размер</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="153"/>
         <source>Display mode</source>
-        <translation>Режим на дисплея</translation>
+        <translation type="vanished">Режим на дисплея</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="166"/>
         <source>Always show</source>
-        <translation>Да се показва винаги</translation>
+        <translation type="vanished">Да се показва винаги</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="170"/>
         <source>Auto hide</source>
-        <translation>Автоматично скриване</translation>
+        <translation type="vanished">Автоматично скриване</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="31"/>
         <source>Power</source>
-        <translation>Захранване</translation>
+        <translation type="vanished">Захранване</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="47"/>
         <source>Mode</source>
-        <translation>Режим</translation>
+        <translation type="vanished">Режим</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="58"/>
         <source>Power Save</source>
-        <translation>Спестяване на енергия</translation>
+        <translation type="vanished">Спестяване на енергия</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="71"/>
         <source>Performance</source>
-        <translation>Производителност</translation>
+        <translation type="vanished">Производителност</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="31"/>
         <source>User</source>
-        <translation>Потребител</translation>
+        <translation type="vanished">Потребител</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="100"/>
         <source>Add user</source>
-        <translation>Добавяне на потребител</translation>
+        <translation type="vanished">Добавяне на потребител</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="30"/>
         <source>Background</source>
-        <translation>Фон</translation>
+        <translation type="vanished">Фон</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="50"/>
         <source>Background type</source>
-        <translation>Вид фон</translation>
+        <translation type="vanished">Вид фон</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="66"/>
         <source>Picture</source>
-        <translation>Изображение</translation>
+        <translation type="vanished">Изображение</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="70"/>
         <source>Color</source>
-        <translation>Цвят</translation>
+        <translation type="vanished">Цвят</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/Main.qml" line="32"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="32"/>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="71"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wired/Main.qml" line="32"/>
-        <location filename="../src/qml/Wired/Main.qml" line="80"/>
         <source>Ethernet</source>
-        <translation>Ethernet</translation>
+        <translation type="vanished">Ethernet</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="30"/>
         <source>Application</source>
-        <translation>Апликация</translation>
+        <translation type="vanished">Апликация</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="42"/>
         <source>Default application</source>
-        <translation>Апликация по подразбиране</translation>
+        <translation type="vanished">Апликация по подразбиране</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>Уеб браузър</translation>
+        <translation type="vanished">Уеб браузър</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="60"/>
         <source>File manager</source>
-        <translation>Файлов мениджър</translation>
+        <translation type="vanished">Файлов мениджър</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="68"/>
         <source>Email</source>
-        <translation>Имейл</translation>
+        <translation type="vanished">Имейл</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="76"/>
         <source>Terminal emulator</source>
-        <translation>Терминален емулатор</translation>
+        <translation type="vanished">Терминален емулатор</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="32"/>
-        <location filename="../src/qml/Hotspot/Main.qml" line="69"/>
         <source>Hotspot</source>
-        <translation>Хотспот</translation>
+        <translation type="vanished">Хотспот</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="47"/>
         <source>Not supported</source>
-        <translation>Несъвместим</translation>
+        <translation type="vanished">Несъвместим</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="102"/>
         <source>SSID</source>
-        <translation>SSID</translation>
+        <translation type="vanished">SSID</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="113"/>
         <source>Password</source>
-        <translation>Парола</translation>
+        <translation type="vanished">Парола</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="129"/>
         <source>Save</source>
-        <translation>Запазване</translation>
+        <translation type="vanished">Запазване</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="31"/>
         <source>Mouse</source>
-        <translation>Мишка</translation>
+        <translation type="vanished">Мишка</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="503"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="512"/>
         <source>Vendor default</source>
         <translation>Доставчик по подразбиране</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="505"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="514"/>
         <source>Medium</source>
         <translation>Среден</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="507"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="516"/>
         <source>None</source>
         <translation>Нито един</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="509"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="518"/>
         <source>Slight</source>
         <translation>Леко</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="511"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="520"/>
         <source>Full</source>
         <translation>Пълна</translation>
     </message>
@@ -535,204 +428,159 @@
 <context>
     <name>SideBar</name>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="141"/>
         <source>User</source>
-        <translation>Потребител</translation>
+        <translation type="vanished">Потребител</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="87"/>
         <source>Display</source>
-        <translation>Дисплей</translation>
+        <translation type="vanished">Дисплей</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="53"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="58"/>
-        <location filename="../src/qml/SideBar.qml" line="67"/>
         <source>Network and connection</source>
-        <translation>Мрежа и връзка</translation>
+        <translation type="vanished">Мрежа и връзка</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="62"/>
         <source>Ethernet</source>
-        <translation>Ethernet</translation>
+        <translation type="vanished">Ethernet</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="92"/>
-        <location filename="../src/qml/SideBar.qml" line="101"/>
-        <location filename="../src/qml/SideBar.qml" line="110"/>
-        <location filename="../src/qml/SideBar.qml" line="119"/>
-        <location filename="../src/qml/SideBar.qml" line="128"/>
-        <location filename="../src/qml/SideBar.qml" line="137"/>
         <source>Display and appearance</source>
-        <translation>Дисплей и облик</translation>
+        <translation type="vanished">Дисплей и облик</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="96"/>
         <source>Appearance</source>
-        <translation>Облик</translation>
+        <translation type="vanished">Облик</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="105"/>
         <source>Mouse</source>
-        <translation>Мишка</translation>
+        <translation type="vanished">Мишка</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="114"/>
         <source>Fonts</source>
-        <translation>Шрифтове</translation>
+        <translation type="vanished">Шрифтове</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="123"/>
         <source>Background</source>
-        <translation>Фон</translation>
+        <translation type="vanished">Фон</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="132"/>
         <source>Dock</source>
-        <translation>Док</translation>
+        <translation type="vanished">Док</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="146"/>
-        <location filename="../src/qml/SideBar.qml" line="164"/>
-        <location filename="../src/qml/SideBar.qml" line="173"/>
-        <location filename="../src/qml/SideBar.qml" line="182"/>
-        <location filename="../src/qml/SideBar.qml" line="191"/>
         <source>System</source>
-        <translation>Система</translation>
+        <translation type="vanished">Система</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="159"/>
         <source>Language</source>
-        <translation>Език</translation>
+        <translation type="vanished">Език</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="168"/>
         <source>Battery</source>
-        <translation>Батерия</translation>
+        <translation type="vanished">Батерия</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="177"/>
         <source>Power</source>
-        <translation>Захранване</translation>
+        <translation type="vanished">Захранване</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="186"/>
         <source>About</source>
-        <translation>Относно</translation>
+        <translation type="vanished">Относно</translation>
     </message>
 </context>
 <context>
     <name>UserDelegateItem</name>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="130"/>
         <source>Currently logged</source>
-        <translation>В момента е влязъл</translation>
+        <translation type="vanished">В момента е влязъл</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="171"/>
         <source>Automatic login</source>
-        <translation>Автоматично влизане</translation>
+        <translation type="vanished">Автоматично влизане</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="190"/>
         <source>Delete this user</source>
-        <translation>Изтриване на този потребител</translation>
+        <translation type="vanished">Изтриване на този потребител</translation>
     </message>
 </context>
 <context>
     <name>WifiItem</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="177"/>
         <source>Password</source>
-        <translation>Парола</translation>
+        <translation type="vanished">Парола</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="197"/>
         <source>Show password</source>
-        <translation>Показване на паролата</translation>
+        <translation type="vanished">Показване на паролата</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="206"/>
         <source>Cancel</source>
-        <translation>Отказ</translation>
+        <translation type="vanished">Отказ</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="212"/>
         <source>Connect</source>
-        <translation>Свързване</translation>
+        <translation type="vanished">Свързване</translation>
     </message>
 </context>
 <context>
     <name>WifiView</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiView.qml" line="35"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation type="vanished">WLAN</translation>
     </message>
 </context>
 <context>
     <name>WirelessDetailsDialog</name>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="65"/>
         <source>Auto-Join</source>
-        <translation>Автоматично присъединяване</translation>
+        <translation type="vanished">Автоматично присъединяване</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="81"/>
         <source>Security</source>
-        <translation>Защита</translation>
+        <translation type="vanished">Защита</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="93"/>
         <source>Signal</source>
-        <translation>Сигнал</translation>
+        <translation type="vanished">Сигнал</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="105"/>
         <source>IPv4 Address</source>
-        <translation>IPv4 Адрес</translation>
+        <translation type="vanished">IPv4 Адрес</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="119"/>
         <source>IPv6 Address</source>
-        <translation>IPv6 Адрес</translation>
+        <translation type="vanished">IPv6 Адрес</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="133"/>
         <source>MAC Address</source>
-        <translation>MAC Адрес</translation>
+        <translation type="vanished">MAC Адрес</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="147"/>
         <source>Gateway</source>
-        <translation>Шлюз</translation>
+        <translation type="vanished">Шлюз</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="160"/>
         <source>DNS</source>
-        <translation>DNS</translation>
+        <translation type="vanished">DNS</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="177"/>
         <source>Close</source>
-        <translation>Затваряне</translation>
+        <translation type="vanished">Затваряне</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="183"/>
         <source>Forget this network</source>
-        <translation>Забравяне на тази мрежа</translation>
+        <translation type="vanished">Забравяне на тази мрежа</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/qml/main.qml" line="29"/>
         <source>Settings</source>
-        <translation>Настройки</translation>
+        <translation type="vanished">Настройки</translation>
     </message>
 </context>
 </TS>

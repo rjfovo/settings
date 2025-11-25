@@ -25,8 +25,9 @@
 #include <QFileInfo>
 #include <QDebug>
 #include <QDir>
+#include <QGuiApplication>
+#include <qpa/qplatformnativeinterface.h>
 
-#include <QX11Info>
 #include <X11/Xcursor/Xcursor.h>
 #include <X11/extensions/Xfixes.h>
 
@@ -163,8 +164,16 @@ void CursorThemeModel::setCurrentTheme(const QString &theme)
 
             int cursorSize = m_settings.value("CursorSize").toInt() * m_settings.value("PixelRatio").toReal();
 
-            foreach (const QString &name, names) {
-                XFixesChangeCursorByName(QX11Info::display(), theme->loadCursor(name, cursorSize), QFile::encodeName(name));
+            // 获取 X11 Display 的 Qt6 方式
+            QPlatformNativeInterface *native = QGuiApplication::platformNativeInterface();
+            if (native) {
+                Display *display = static_cast<Display*>(native->nativeResourceForWindow("display", nullptr));
+                
+                if (display) {
+                    foreach (const QString &name, names) {
+                        XFixesChangeCursorByName(display, theme->loadCursor(name, cursorSize), QFile::encodeName(name));
+                    }
+                }
             }
         }
     }

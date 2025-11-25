@@ -4,570 +4,455 @@
 <context>
     <name>AddUserDialog</name>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="72"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="78"/>
         <source>User name</source>
-        <translation>שם משתמש</translation>
+        <translation type="vanished">שם משתמש</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="85"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="91"/>
         <source>Password</source>
-        <translation>סיסמא</translation>
+        <translation type="vanished">סיסמא</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="98"/>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="104"/>
         <source>Verify password</source>
-        <translation>אימות סיסמא</translation>
+        <translation type="vanished">אימות סיסמא</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="111"/>
         <source>Account type</source>
-        <translation>סוג חשבון</translation>
+        <translation type="vanished">סוג חשבון</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Standard</source>
-        <translation>רגיל</translation>
+        <translation type="vanished">רגיל</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="117"/>
         <source>Administrator</source>
-        <translation>מנהל</translation>
+        <translation type="vanished">מנהל</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="130"/>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation type="vanished">ביטול</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/AddUserDialog.qml" line="137"/>
         <source>Add</source>
-        <translation>הוסף</translation>
+        <translation type="vanished">הוסף</translation>
     </message>
 </context>
 <context>
     <name>BluetoothPage</name>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="29"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/BluetoothPage.qml" line="49"/>
         <source>Bluetooth is disabled</source>
-        <translation>Bluetooth לא פעיל</translation>
+        <translation type="vanished">Bluetooth לא פעיל</translation>
     </message>
 </context>
 <context>
     <name>LanguagePage</name>
     <message>
-        <location filename="../src/qml/LanguagePage.qml" line="29"/>
         <source>Language</source>
-        <translation>שפה</translation>
+        <translation type="vanished">שפה</translation>
     </message>
 </context>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>אודות</translation>
+        <translation type="vanished">אודות</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="68"/>
         <source>Built on %1</source>
-        <translation>נבנה על</translation>
+        <translation type="vanished">נבנה על</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="76"/>
         <source>System Version</source>
-        <translation>גרסאת המערכת</translation>
+        <translation type="vanished">גרסאת המערכת</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="81"/>
         <source>System Type</source>
-        <translation>סוג מערכת</translation>
+        <translation type="vanished">סוג מערכת</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="86"/>
         <source>Kernel Version</source>
-        <translation>גרסת ה&quot;ליבה&quot;</translation>
+        <translation type="vanished">גרסת ה&quot;ליבה&quot;</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="91"/>
         <source>Processor</source>
-        <translation>מעבד</translation>
+        <translation type="vanished">מעבד</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="96"/>
         <source>RAM</source>
-        <translation>RAM</translation>
+        <translation type="vanished">RAM</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="101"/>
         <source>Internal Storage</source>
-        <translation>אחסון פנימי</translation>
+        <translation type="vanished">אחסון פנימי</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="30"/>
         <source>Appearance</source>
-        <translation>מראה</translation>
+        <translation type="vanished">מראה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="48"/>
-        <location filename="../src/qml/Cursor/Main.qml" line="140"/>
         <source>Theme</source>
-        <translation>ערכת נושא</translation>
+        <translation type="vanished">ערכת נושא</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="58"/>
         <source>Light</source>
-        <translation>בהיר</translation>
+        <translation type="vanished">בהיר</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="65"/>
         <source>Dark</source>
-        <translation>כהה</translation>
+        <translation type="vanished">כהה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="78"/>
         <source>Dim the wallpaper in dark theme</source>
-        <translation>עמעם את רקע שולחן העבודה בעיצוב כהה</translation>
+        <translation type="vanished">עמעם את רקע שולחן העבודה בעיצוב כהה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="98"/>
         <source>System effects</source>
-        <translation>אפקטים של המערכת</translation>
+        <translation type="vanished">אפקטים של המערכת</translation>
     </message>
     <message>
-        <location filename="../src/qml/Appearance/Main.qml" line="118"/>
         <source>Accent color</source>
-        <translation>צבע כללי</translation>
+        <translation type="vanished">צבע כללי</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="31"/>
         <source>Fonts</source>
-        <translation>פונטים</translation>
+        <translation type="vanished">פונטים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="92"/>
         <source>General Font</source>
-        <translation>פונט כללי</translation>
+        <translation type="vanished">פונט כללי</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="109"/>
         <source>Fixed Font</source>
-        <translation>פונט קבוע</translation>
+        <translation type="vanished">פונט קבוע</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="126"/>
         <source>Font Size</source>
-        <translation>גודל פונט</translation>
+        <translation type="vanished">גודל פונט</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="187"/>
         <source>Hinting</source>
-        <translation>שיפור איכות פונטים</translation>
+        <translation type="vanished">שיפור איכות פונטים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>החלקת עקומות</translation>
+        <translation type="vanished">החלקת עקומות</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="89"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="134"/>
         <source>Small</source>
-        <translation>קטן</translation>
+        <translation type="vanished">קטן</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="93"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="138"/>
         <source>Medium</source>
-        <translation>בינוני</translation>
+        <translation type="vanished">בינוני</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="97"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="142"/>
         <source>Large</source>
-        <translation>גדול</translation>
+        <translation type="vanished">גדול</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="101"/>
-        <location filename="../src/qml/Fonts/Main.qml" line="146"/>
         <source>Huge</source>
-        <translation>ענק</translation>
+        <translation type="vanished">ענק</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="29"/>
         <source>Battery</source>
-        <translation>בטריה</translation>
+        <translation type="vanished">בטריה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last hour</source>
-        <translation>שעה אחרונה</translation>
+        <translation type="vanished">שעה אחרונה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 2 hours</source>
-        <translation>לפני שעתיים</translation>
+        <translation type="vanished">לפני שעתיים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 12 hours</source>
-        <translation>לפני 12 שעות</translation>
+        <translation type="vanished">לפני 12 שעות</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 24 hours</source>
-        <translation>לפני יממה</translation>
+        <translation type="vanished">לפני יממה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 48 hours</source>
-        <translation>לפני יומיים</translation>
+        <translation type="vanished">לפני יומיים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="32"/>
         <source>Last 7 days</source>
-        <translation>לפני שבוע</translation>
+        <translation type="vanished">לפני שבוע</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="126"/>
         <source>History</source>
-        <translation>היסטוריה</translation>
+        <translation type="vanished">היסטוריה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="154"/>
         <source>W</source>
-        <translation>W</translation>
+        <translation type="vanished">W</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="175"/>
         <source>Health</source>
-        <translation>בריאות</translation>
+        <translation type="vanished">בריאות</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="199"/>
         <source>Poor</source>
-        <translation>ירודה</translation>
+        <translation type="vanished">ירודה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="224"/>
         <source>Normal</source>
-        <translation>רגילה</translation>
+        <translation type="vanished">רגילה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="249"/>
         <source>Excellent</source>
-        <translation>נהדרת</translation>
+        <translation type="vanished">נהדרת</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="258"/>
         <source>Last Charged to</source>
-        <translation>נטען פעם אחרונה ל</translation>
+        <translation type="vanished">נטען פעם אחרונה ל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="264"/>
         <source>Maximum Capacity</source>
-        <translation>קיבולת מרבית</translation>
+        <translation type="vanished">קיבולת מרבית</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="272"/>
         <source>Show percentage in status bar</source>
-        <translation>הראה אחוז בסרגל העליון</translation>
+        <translation type="vanished">הראה אחוז בסרגל העליון</translation>
     </message>
     <message>
-        <location filename="../src/qml/Battery/Main.qml" line="296"/>
         <source>No battery found</source>
-        <translation>לא נמצאה סוללה</translation>
+        <translation type="vanished">לא נמצאה סוללה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="29"/>
         <source>Display</source>
-        <translation>תצוגה</translation>
+        <translation type="vanished">תצוגה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="67"/>
         <source>Brightness</source>
-        <translation>בהירות</translation>
+        <translation type="vanished">בהירות</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="115"/>
         <source>Screen</source>
-        <translation>מסך</translation>
+        <translation type="vanished">מסך</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="154"/>
         <source>Screen Name</source>
-        <translation>שם מסך</translation>
+        <translation type="vanished">שם מסך</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="165"/>
         <source>Resolution</source>
-        <translation>רזולוציה</translation>
+        <translation type="vanished">רזולוציה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="184"/>
         <source>Refresh rate</source>
-        <translation>קצב רענון</translation>
+        <translation type="vanished">קצב רענון</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="204"/>
         <source>Rotation</source>
-        <translation>רוטציה</translation>
+        <translation type="vanished">רוטציה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="248"/>
         <source>Enabled</source>
-        <translation>פעיל</translation>
+        <translation type="vanished">פעיל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="279"/>
         <source>Scale</source>
-        <translation>גודל</translation>
+        <translation type="vanished">גודל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Display/Main.qml" line="346"/>
         <source>Need to log in again to take effect</source>
-        <translation>צריך להתחבר מחדש בשביל לממש את השינויים</translation>
+        <translation type="vanished">צריך להתחבר מחדש בשביל לממש את השינויים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="28"/>
         <source>Dock</source>
-        <translation>סרגל כלים</translation>
+        <translation type="vanished">סרגל כלים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="45"/>
         <source>Position on screen</source>
-        <translation>עמדה במסך</translation>
+        <translation type="vanished">עמדה במסך</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="55"/>
         <source>Left</source>
-        <translation>שמאל</translation>
+        <translation type="vanished">שמאל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="62"/>
         <source>Bottom</source>
-        <translation>למטה</translation>
+        <translation type="vanished">למטה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="69"/>
         <source>Right</source>
-        <translation>ימין</translation>
+        <translation type="vanished">ימין</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="79"/>
         <source>Size</source>
-        <translation>גודל</translation>
+        <translation type="vanished">גודל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="145"/>
         <source>Display mode</source>
-        <translation>מצב תצוגה</translation>
+        <translation type="vanished">מצב תצוגה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="155"/>
         <source>Always show</source>
-        <translation>תמיד תראה</translation>
+        <translation type="vanished">תמיד תראה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="159"/>
         <source>Always hide</source>
-        <translation>תמיד תסתיר</translation>
+        <translation type="vanished">תמיד תסתיר</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dock/Main.qml" line="163"/>
         <source>Smart hide</source>
-        <translation>הסתרה חכמה</translation>
+        <translation type="vanished">הסתרה חכמה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="31"/>
         <source>Power</source>
-        <translation>צריכת חשמל</translation>
+        <translation type="vanished">צריכת חשמל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="48"/>
         <source>Mode</source>
-        <translation>מצב</translation>
+        <translation type="vanished">מצב</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="57"/>
         <source>Power Save</source>
-        <translation>צריכת סוללה</translation>
+        <translation type="vanished">צריכת סוללה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Power/Main.qml" line="70"/>
         <source>Performance</source>
-        <translation>ביצועים</translation>
+        <translation type="vanished">ביצועים</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="31"/>
         <source>User</source>
-        <translation>משתמש</translation>
+        <translation type="vanished">משתמש</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/Main.qml" line="100"/>
         <source>Add user</source>
-        <translation>הוסף משתמש</translation>
+        <translation type="vanished">הוסף משתמש</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="30"/>
         <source>Background</source>
-        <translation>רקע</translation>
+        <translation type="vanished">רקע</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="50"/>
         <source>Background type</source>
-        <translation>סוג רקע</translation>
+        <translation type="vanished">סוג רקע</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="66"/>
         <source>Picture</source>
-        <translation>תמונה</translation>
+        <translation type="vanished">תמונה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wallpaper/Main.qml" line="70"/>
         <source>Color</source>
-        <translation>צבע</translation>
+        <translation type="vanished">צבע</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/Main.qml" line="32"/>
         <source>WLAN</source>
-        <translation>רשת אלחוטית</translation>
+        <translation type="vanished">רשת אלחוטית</translation>
     </message>
     <message>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="32"/>
-        <location filename="../src/qml/Bluetooth/Main.qml" line="71"/>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../src/qml/Wired/Main.qml" line="32"/>
-        <location filename="../src/qml/Wired/Main.qml" line="80"/>
         <source>Ethernet</source>
-        <translation>חיבור אינטרנט קווי</translation>
+        <translation type="vanished">חיבור אינטרנט קווי</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="30"/>
         <source>Application</source>
-        <translation>אפליקציה</translation>
+        <translation type="vanished">אפליקציה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="42"/>
         <source>Default application</source>
-        <translation>אפליקציית ברירת מחדל</translation>
+        <translation type="vanished">אפליקציית ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>דפדפן</translation>
+        <translation type="vanished">דפדפן</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="60"/>
         <source>File manager</source>
-        <translation>מנהל הקבצים</translation>
+        <translation type="vanished">מנהל הקבצים</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="68"/>
         <source>Email</source>
-        <translation>אימייל</translation>
+        <translation type="vanished">אימייל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Application/Main.qml" line="76"/>
         <source>Terminal emulator</source>
-        <translation>מדמה מסוף</translation>
+        <translation type="vanished">מדמה מסוף</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="32"/>
-        <location filename="../src/qml/Hotspot/Main.qml" line="69"/>
         <source>Hotspot</source>
-        <translation>נקודה חמה</translation>
+        <translation type="vanished">נקודה חמה</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="47"/>
         <source>Not supported</source>
-        <translation>לא נתמך</translation>
+        <translation type="vanished">לא נתמך</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="102"/>
         <source>SSID</source>
-        <translation>SSID</translation>
+        <translation type="vanished">SSID</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="113"/>
         <source>Password</source>
-        <translation>סיסמא</translation>
+        <translation type="vanished">סיסמא</translation>
     </message>
     <message>
-        <location filename="../src/qml/Hotspot/Main.qml" line="129"/>
         <source>Save</source>
-        <translation>שמור</translation>
+        <translation type="vanished">שמור</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="31"/>
         <source>Mouse</source>
-        <translation>עכבר</translation>
+        <translation type="vanished">עכבר</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="61"/>
         <source>Left hand</source>
-        <translation>יד שמאל</translation>
+        <translation type="vanished">יד שמאל</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="74"/>
         <source>Natural scrolling</source>
-        <translation>גלילה טבעית</translation>
+        <translation type="vanished">גלילה טבעית</translation>
     </message>
     <message>
-        <location filename="../src/qml/Cursor/Main.qml" line="114"/>
         <source>Pointer speed</source>
-        <translation>מהירות עכבר</translation>
+        <translation type="vanished">מהירות עכבר</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="28"/>
         <source>Date &amp; Time</source>
-        <translation>תאריך ושעה</translation>
+        <translation type="vanished">תאריך ושעה</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="54"/>
         <source>Auto Sync</source>
-        <translation>סנכרון אוטומטי</translation>
+        <translation type="vanished">סנכרון אוטומטי</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/Main.qml" line="83"/>
         <source>Time Zone</source>
-        <translation>אזור זמן</translation>
+        <translation type="vanished">אזור זמן</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="503"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="512"/>
         <source>Vendor default</source>
         <translation>ברירת מחדל של הספק</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="505"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="514"/>
         <source>Medium</source>
         <translation>בינוני</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="507"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="516"/>
         <source>None</source>
         <translation>ללא</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="509"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="518"/>
         <source>Slight</source>
         <translation>קצת</translation>
     </message>
     <message>
-        <location filename="../src/fonts/kxftconfig.cpp" line="511"/>
+        <location filename="../src/fonts/kxftconfig.cpp" line="520"/>
         <source>Full</source>
         <translation>מלא</translation>
     </message>
@@ -575,223 +460,174 @@
 <context>
     <name>SideBar</name>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="132"/>
         <source>User</source>
-        <translation>משתמש</translation>
+        <translation type="vanished">משתמש</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="87"/>
         <source>Display</source>
-        <translation>תצוגה</translation>
+        <translation type="vanished">תצוגה</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="53"/>
         <source>WLAN</source>
-        <translation>רשת אלחוטית</translation>
+        <translation type="vanished">רשת אלחוטית</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="58"/>
-        <location filename="../src/qml/SideBar.qml" line="67"/>
         <source>Network and connection</source>
-        <translation>רשת וחיבורים</translation>
+        <translation type="vanished">רשת וחיבורים</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="62"/>
         <source>Ethernet</source>
-        <translation>חיבור אינטרנט קווי</translation>
+        <translation type="vanished">חיבור אינטרנט קווי</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="92"/>
-        <location filename="../src/qml/SideBar.qml" line="101"/>
-        <location filename="../src/qml/SideBar.qml" line="110"/>
-        <location filename="../src/qml/SideBar.qml" line="119"/>
-        <location filename="../src/qml/SideBar.qml" line="128"/>
         <source>Display and appearance</source>
-        <translation>תצוגה ומראה</translation>
+        <translation type="vanished">תצוגה ומראה</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="96"/>
         <source>Appearance</source>
-        <translation>מראה</translation>
+        <translation type="vanished">מראה</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="141"/>
         <source>Mouse</source>
-        <translation>עכבר</translation>
+        <translation type="vanished">עכבר</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="105"/>
         <source>Fonts</source>
-        <translation>פונטים</translation>
+        <translation type="vanished">פונטים</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="114"/>
         <source>Background</source>
-        <translation>רקע</translation>
+        <translation type="vanished">רקע</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="123"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation type="vanished">Dock</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="137"/>
-        <location filename="../src/qml/SideBar.qml" line="146"/>
-        <location filename="../src/qml/SideBar.qml" line="164"/>
-        <location filename="../src/qml/SideBar.qml" line="182"/>
-        <location filename="../src/qml/SideBar.qml" line="191"/>
-        <location filename="../src/qml/SideBar.qml" line="200"/>
-        <location filename="../src/qml/SideBar.qml" line="209"/>
         <source>System</source>
-        <translation>מערכת</translation>
+        <translation type="vanished">מערכת</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="159"/>
         <source>Date &amp; Time</source>
-        <translation>תאריך ושעה</translation>
+        <translation type="vanished">תאריך ושעה</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="177"/>
         <source>Language</source>
-        <translation>שפה</translation>
+        <translation type="vanished">שפה</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="186"/>
         <source>Battery</source>
-        <translation>בטריה</translation>
+        <translation type="vanished">בטריה</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="195"/>
         <source>Power</source>
-        <translation>כוח</translation>
+        <translation type="vanished">כוח</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="204"/>
         <source>About</source>
-        <translation>אודות</translation>
+        <translation type="vanished">אודות</translation>
     </message>
 </context>
 <context>
     <name>TimeZoneDialog</name>
     <message>
-        <location filename="../src/qml/DateTime/TimeZoneDialog.qml" line="160"/>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation type="vanished">ביטול</translation>
     </message>
     <message>
-        <location filename="../src/qml/DateTime/TimeZoneDialog.qml" line="165"/>
         <source>Set</source>
-        <translation>קבע</translation>
+        <translation type="vanished">קבע</translation>
     </message>
 </context>
 <context>
     <name>UserDelegateItem</name>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="130"/>
         <source>Currently logged</source>
-        <translation>מחובר כעת</translation>
+        <translation type="vanished">מחובר כעת</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="171"/>
         <source>Automatic login</source>
-        <translation>חיבור אוטומטי</translation>
+        <translation type="vanished">חיבור אוטומטי</translation>
     </message>
     <message>
-        <location filename="../src/qml/User/UserDelegateItem.qml" line="190"/>
         <source>Delete this user</source>
-        <translation>מחק את המשתמש הזה</translation>
+        <translation type="vanished">מחק את המשתמש הזה</translation>
     </message>
 </context>
 <context>
     <name>WifiItem</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="177"/>
         <source>Password</source>
-        <translation>סיסמא</translation>
+        <translation type="vanished">סיסמא</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="197"/>
         <source>Show password</source>
-        <translation>הראה סיסמא</translation>
+        <translation type="vanished">הראה סיסמא</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="206"/>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation type="vanished">ביטול</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WifiItem.qml" line="212"/>
         <source>Connect</source>
-        <translation>התחבר</translation>
+        <translation type="vanished">התחבר</translation>
     </message>
 </context>
 <context>
     <name>WifiView</name>
     <message>
-        <location filename="../src/qml/WLAN/WifiView.qml" line="35"/>
         <source>WLAN</source>
-        <translation>רשת אלחוטית</translation>
+        <translation type="vanished">רשת אלחוטית</translation>
     </message>
 </context>
 <context>
     <name>WirelessDetailsDialog</name>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="65"/>
         <source>Auto-Join</source>
-        <translation>התחבר אוטומטית</translation>
+        <translation type="vanished">התחבר אוטומטית</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="81"/>
         <source>Security</source>
-        <translation>אבטחה</translation>
+        <translation type="vanished">אבטחה</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="93"/>
         <source>Signal</source>
-        <translation>אות</translation>
+        <translation type="vanished">אות</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="105"/>
         <source>IPv4 Address</source>
-        <translation>כתובת IPv4</translation>
+        <translation type="vanished">כתובת IPv4</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="119"/>
         <source>IPv6 Address</source>
-        <translation>כתובת IPv6</translation>
+        <translation type="vanished">כתובת IPv6</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="133"/>
         <source>MAC Address</source>
-        <translation>כתובת MAC</translation>
+        <translation type="vanished">כתובת MAC</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="147"/>
         <source>Gateway</source>
-        <translation>שער</translation>
+        <translation type="vanished">שער</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="160"/>
         <source>DNS</source>
-        <translation>DNS</translation>
+        <translation type="vanished">DNS</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="177"/>
         <source>Close</source>
-        <translation>סגור</translation>
+        <translation type="vanished">סגור</translation>
     </message>
     <message>
-        <location filename="../src/qml/WLAN/WirelessDetailsDialog.qml" line="183"/>
         <source>Forget this network</source>
-        <translation>שכח את הרשת הזאת</translation>
+        <translation type="vanished">שכח את הרשת הזאת</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/qml/main.qml" line="29"/>
         <source>Settings</source>
-        <translation>הגדרות</translation>
+        <translation type="vanished">הגדרות</translation>
     </message>
 </context>
 </TS>
