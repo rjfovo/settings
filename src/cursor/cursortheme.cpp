@@ -23,8 +23,15 @@
 #include <QSettings>
 #include <QCursor>
 #include <QDebug>
-#include <QX11Info>
 #include <QImage>
+
+// Qt6 兼容性处理
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    #include <QGuiApplication>
+    #include <qpa/qplatformnativeinterface.h>
+#else
+    #include <QX11Info>
+#endif
 
 #include <X11/Xlib.h>
 #include <X11/Xcursor/Xcursor.h>
@@ -92,9 +99,16 @@ QPixmap CursorTheme::pixmap() const
 
 int CursorTheme::defaultCursorSize() const
 {
+    // 平台检测
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    if (QGuiApplication::platformName() != "xcb") {
+        return 32;
+    }
+#else
     if (!QX11Info::isPlatformX11()) {
         return 32;
     }
+#endif
 
     /* This code is basically borrowed from display.c of the XCursor library
        We can't use "int XcursorGetDefaultSize(Display *dpy)" because if
@@ -102,7 +116,21 @@ int CursorTheme::defaultCursorSize() const
        this custom value. */
     int size = 0;
     int dpi = 0;
+    
+    // Display 获取
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QPlatformNativeInterface *native = QGuiApplication::platformNativeInterface();
+    Display *dpy = nullptr;
+    if (native) {
+        dpy = static_cast<Display*>(native->nativeResourceForWindow("display", nullptr));
+    }
+    if (!dpy) {
+        return 32;
+    }
+#else
     Display *dpy = QX11Info::display();
+#endif
+
     // The string "v" is owned and will be destroyed by Xlib
     char *v = XGetDefault(dpy, "Xft", "dpi");
     if (v)
@@ -184,9 +212,17 @@ QPixmap CursorTheme::createIcon(int size) const
 
 qulonglong CursorTheme::loadCursor(const QString &name, int size) const
 {
+    // 平台检测
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    if (QGuiApplication::platformName() != "xcb") {
+        return None;
+    }
+#else
     if (!QX11Info::isPlatformX11()) {
         return None;
     }
+#endif
+
     if (size <= 0)
         size = defaultCursorSize();
 
@@ -200,7 +236,21 @@ qulonglong CursorTheme::loadCursor(const QString &name, int size) const
         return None;
 
     // Create the cursor
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QPlatformNativeInterface *native = QGuiApplication::platformNativeInterface();
+    Display *dpy = nullptr;
+    if (native) {
+        dpy = static_cast<Display*>(native->nativeResourceForWindow("display", nullptr));
+    }
+    if (!dpy) {
+        XcursorImagesDestroy(images);
+        return None;
+    }
+    Cursor handle = XcursorImagesLoadCursor(dpy, images);
+#else
     Cursor handle = XcursorImagesLoadCursor(QX11Info::display(), images);
+#endif
+
     XcursorImagesDestroy(images);
 
     return handle;
@@ -266,13 +316,35 @@ bool CursorTheme::haveXfixes()
 {
     bool result = false;
 
+    // 平台检测
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    if (QGuiApplication::platformName() != "xcb") {
+        return result;
+    }
+#else
     if (!QX11Info::isPlatformX11()) {
         return result;
     }
+#endif
+
+    // Display 获取
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QPlatformNativeInterface *native = QGuiApplication::platformNativeInterface();
+    Display *dpy = nullptr;
+    if (native) {
+        dpy = static_cast<Display*>(native->nativeResourceForWindow("display", nullptr));
+    }
+    if (!dpy) {
+        return result;
+    }
+#else
+    Display *dpy = QX11Info::display();
+#endif
+
     int event_base, error_base;
-    if (XFixesQueryExtension(QX11Info::display(), &event_base, &error_base)) {
+    if (XFixesQueryExtension(dpy, &event_base, &error_base)) {
         int major, minor;
-        XFixesQueryVersion(QX11Info::display(), &major, &minor);
+        XFixesQueryVersion(dpy, &major, &minor);
         result = (major >= 2);
     }
 
