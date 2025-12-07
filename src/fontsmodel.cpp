@@ -151,10 +151,25 @@ QStringList FontsModel::fixedFonts() const
 
 QString FontsModel::systemGeneralFont() const
 {
-    return QFontDatabase::systemFont(QFontDatabase::GeneralFont).family();
+    // Qt6 compatibility: QFontDatabase::systemFont() may return empty font
+    // Use QFont() constructor with default font family
+    QFont font;
+    QString family = font.family();
+    if (family.isEmpty()) {
+        // Fallback to default font
+        family = "Noto Sans";
+    }
+    return family;
 }
 
 QString FontsModel::systemFixedFont() const
 {
-    return QFontDatabase::systemFont(QFontDatabase::FixedFont).family();
+    // Qt6 compatibility
+    QFont font("Monospace");
+    QString family = font.family();
+    if (family.isEmpty()) {
+        // Fallback to default monospace font
+        family = "Monospace";
+    }
+    return family;
 }
