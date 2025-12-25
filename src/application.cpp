@@ -105,6 +105,7 @@ Application::Application(int &argc, char **argv)
     }
 
     m_engine.addImportPath(QStringLiteral("qrc:/"));
+    m_engine.addImportPath(QStringLiteral("/usr/share/qml"));
     m_engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
     if (!module.isEmpty()) {

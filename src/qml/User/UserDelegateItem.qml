@@ -21,7 +21,7 @@ import QtQuick 6.0
 import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import QtQuick.Dialogs 6.0
-import Qt5Compat.GraphicalEffects 1.0
+import Qt5Compat.GraphicalEffects 6.0
 
 import Cutefish.Settings 1.0
 import Cutefish.Accounts 1.0
