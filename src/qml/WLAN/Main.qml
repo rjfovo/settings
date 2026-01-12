@@ -34,29 +34,29 @@ ItemPage {
     property var itemHeight: 45
     property var settingsMap: ({})
 
-    NM.Handler {
-        id: handler
-    }
+    // NM.Handler {
+    //     id: handler
+    // }
 
-    NM.WifiSettings {
-        id: wifiSettings
-    }
+    // NM.WifiSettings {
+    //     id: wifiSettings
+    // }
 
-    NM.NetworkModel {
-        id: networkModel
-    }
+    // NM.NetworkModel {
+    //     id: networkModel
+    // }
 
-    NM.EnabledConnections {
-        id: enabledConnections
-    }
+    // NM.EnabledConnections {
+    //     id: enabledConnections
+    // }
 
-    NM.IdentityModel {
-        id: connectionModel
-    }
+    // NM.IdentityModel {
+    //     id: connectionModel
+    // }
 
-    NM.Configuration {
-        id: configuration
-    }
+    // NM.Configuration {
+    //     id: configuration
+    // }
 
     NewNetworkDialog {
         id: newNetworkDialog

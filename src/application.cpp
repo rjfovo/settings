@@ -4,6 +4,7 @@
 #include <QTranslator>
 #include <QLocale>
 #include <QIcon>
+#include <QDebug>
 
 #include "settingsuiadaptor.h"
 #include "fontsmodel.h"
@@ -40,6 +41,7 @@ static QObject *passwordSingleton(QQmlEngine *engine, QJSEngine *scriptEngine)
 Application::Application(int &argc, char **argv)
     : QApplication(argc, argv)
 {
+    qDebug() << "Cutefish Settings starting...";
     setWindowIcon(QIcon::fromTheme("preferences-system"));
     setOrganizationName("cutefishos");
 
@@ -53,13 +55,16 @@ Application::Application(int &argc, char **argv)
 
     const QString module = parser.value(moduleOption);
 
+    qDebug() << "Attempting to register D-Bus service...";
     if (!QDBusConnection::sessionBus().registerService("com.cutefish.SettingsUI")) {
+        qDebug() << "D-Bus service already registered, forwarding to existing instance.";
         QDBusInterface iface("com.cutefish.SettingsUI", "/SettingsUI", "com.cutefish.SettingsUI", QDBusConnection::sessionBus());
         if (iface.isValid())
             iface.call("switchToPage", module);
         return;
     }
 
+    qDebug() << "D-Bus service registered successfully.";
     new SettingsUIAdaptor(this);
     QDBusConnection::sessionBus().registerObject(QStringLiteral("/SettingsUI"), this);
 
@@ -104,9 +109,11 @@ Application::Application(int &argc, char **argv)
         }
     }
 
+    qDebug() << "Setting up QML engine...";
     m_engine.addImportPath(QStringLiteral("qrc:/"));
     m_engine.addImportPath(QStringLiteral("/usr/share/qml"));
     m_engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    qDebug() << "QML loaded, entering event loop...";
 
     if (!module.isEmpty()) {
         switchToPage(module);

@@ -34,13 +34,13 @@ ItemPage {
     property var itemHeight: 45
     property var settingsMap: ({})
 
-    NM.Handler {
-        id: handler
-    }
+    // NM.Handler {
+    //     id: handler
+    // }
 
-    NM.Configuration {
-        id: configuration
-    }
+    // NM.Configuration {
+    //     id: configuration
+    // }
 
     Label {
         anchors.centerIn: parent

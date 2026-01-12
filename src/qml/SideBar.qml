@@ -417,14 +417,14 @@ Item {
         }
     }
 
-    NM.EnabledConnections {
-        id: nmEnabledConnections
-
-        Component.onCompleted: {
-            if (!nmEnabledConnections.wirelessHwEnabled)
-                removeItem("wlan")
-        }
-    }
+    // NM.EnabledConnections {
+    //     id: nmEnabledConnections
+    //
+    //     Component.onCompleted: {
+    //         if (!nmEnabledConnections.wirelessHwEnabled)
+    //             removeItem("wlan")
+    //     }
+    // }
 
     Touchpad {
         id: _touchPad
