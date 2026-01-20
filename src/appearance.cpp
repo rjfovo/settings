@@ -60,7 +60,7 @@ Appearance::Appearance(QObject *parent)
     if (m_interface.isValid()) {
         m_fontPointSize = m_interface.property("systemFontPointSize").toInt();
 
-        connect(&m_interface, SIGNAL(darkModeDimsWallpaerChanged()), this, SIGNAL(dimsWallpaperChanged()));
+        connect(&m_interface, SIGNAL(darkModeDimsWallpaperChanged()), this, SIGNAL(dimsWallpaperChanged()));
     }
 }
 
@@ -73,12 +73,12 @@ void Appearance::switchDarkMode(bool darkMode)
 
 bool Appearance::dimsWallpaper() const
 {
-    return m_interface.property("darkModeDimsWallpaer").toBool();
+    return m_interface.property("darkModeDimsWallpaper").toBool();
 }
 
 void Appearance::setDimsWallpaper(bool value)
 {
-    m_interface.call("setDarkModeDimsWallpaer", value);
+    m_interface.call("setDarkModeDimsWallpaper", value);
 }
 
 int Appearance::dockIconSize() const
