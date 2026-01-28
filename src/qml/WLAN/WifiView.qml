@@ -23,11 +23,15 @@ import QtQuick.Layouts 6.0
 import "../"
 
 import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import cutefish.networkmanagement 1.0
 
 ColumnLayout {
     id: _contentLayout
     spacing: FishUI.Units.largeSpacing
+    
+    property var handler
+    property var enabledConnections
+    property var connectionModel
 
     ConnectDialog {
         id: connectDialog
@@ -95,8 +99,8 @@ ColumnLayout {
 
         clip: true
 
-        model: NM.AppletProxyModel {
-            type: NM.AppletProxyModel.WirelessType
+        model: AppletProxyModel {
+            type: AppletProxyModel.WirelessType
             sourceModel: connectionModel
         }
 

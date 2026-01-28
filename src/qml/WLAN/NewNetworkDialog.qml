@@ -23,7 +23,7 @@ import QtQuick.Layouts 6.0
 import Qt5Compat.GraphicalEffects 6.0
 
 import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import cutefish.networkmanagement 1.0
 
 FishUI.Window {
     id: control

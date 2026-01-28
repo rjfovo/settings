@@ -20,8 +20,9 @@
 import QtQuick 6.0
 import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
+import QtQml 6.0
 import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import cutefish.networkmanagement 1.0
 
 FishUI.Window {
     id: control
@@ -84,12 +85,10 @@ FishUI.Window {
             selectByMouse: true
             placeholderText: qsTr("Password")
 
-            validator: RegExpValidator {
-                regExp: {
-                    if (control.securityType === NM.Enums.StaticWep)
-                        return /^(?:[\x20-\x7F]{5}|[0-9a-fA-F]{10}|[\x20-\x7F]{13}|[0-9a-fA-F]{26}){1}$/;
-                    return /^(?:[\x20-\x7F]{8,64}){1}$/;
-                }
+            validator: RegularExpressionValidator {
+                regularExpression: (control.securityType === Enums.StaticWep)
+                                    ? /^(?:[\x20-\x7F]{5}|[0-9a-fA-F]{10}|[\x20-\x7F]{13}|[0-9a-fA-F]{26}){1}$/
+                                    : /^(?:[\x20-\x7F]{8,64}){1}$/
             }
 
             onAccepted: {

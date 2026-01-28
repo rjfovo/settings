@@ -111,7 +111,6 @@ Application::Application(int &argc, char **argv)
 
     qDebug() << "Setting up QML engine...";
     m_engine.addImportPath(QStringLiteral("qrc:/"));
-    m_engine.addImportPath(QStringLiteral("/usr/share/qml"));
     m_engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
     qDebug() << "QML loaded, entering event loop...";
 

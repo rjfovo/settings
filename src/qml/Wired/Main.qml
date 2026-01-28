@@ -23,7 +23,7 @@ import QtQuick.Layouts 6.0
 import Qt5Compat.GraphicalEffects 6.0
 
 import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import cutefish.networkmanagement 1.0
 
 import "../"
 
@@ -34,29 +34,29 @@ ItemPage {
     property var itemHeight: 45
     property var settingsMap: ({})
 
-    // NM.Handler {
-    //     id: handler
-    // }
+    Handler {
+        id: handler
+    }
 
-    // NM.WifiSettings {
-    //     id: wifiSettings
-    // }
+    WifiSettings {
+        id: wifiSettings
+    }
 
-    // NM.NetworkModel {
-    //     id: networkModel
-    // }
+    NetworkModel {
+        id: networkModel
+    }
 
-    // NM.EnabledConnections {
-    //     id: enabledConnections
-    // }
+    EnabledConnections {
+        id: enabledConnections
+    }
 
-    // NM.IdentityModel {
-    //     id: connectionModel
-    // }
+    IdentityModel {
+        id: connectionModel
+    }
 
-    // NM.Configuration {
-    //     id: configuration
-    // }
+    Configuration {
+        id: configuration
+    }
 
     Scrollable {
         anchors.fill: parent
@@ -110,8 +110,8 @@ ItemPage {
                     interactive: false
                     clip: true
 
-                    model: NM.AppletProxyModel {
-                        type: NM.AppletProxyModel.WiredType
+                    model: AppletProxyModel {
+                        type: AppletProxyModel.WiredType
                         sourceModel: connectionModel
                     }
 

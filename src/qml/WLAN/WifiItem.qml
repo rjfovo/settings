@@ -22,9 +22,10 @@ import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import Qt5Compat.GraphicalEffects 6.0
 import QtQuick.Window 6.0
+import QtQml 6.0
 
 import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import cutefish.networkmanagement 1.0
 import "../"
 
 Item {
@@ -32,9 +33,9 @@ Item {
 
     height: _itemLayout.implicitHeight + FishUI.Units.largeSpacing
 
-    property bool passwordIsStatic: (model.securityType === NM.Enums.StaticWep || model.securityType === NM.Enums.WpaPsk ||
-                                     model.securityType === NM.Enums.Wpa2Psk || model.securityType === NM.Enums.SAE)
-    property bool predictableWirelessPassword: !model.uuid && model.type === NM.Enums.Wireless && passwordIsStatic
+    property bool passwordIsStatic: (model.securityType === Enums.StaticWep || model.securityType === Enums.WpaPsk ||
+                                     model.securityType === Enums.Wpa2Psk || model.securityType === Enums.SAE)
+    property bool predictableWirelessPassword: !model.uuid && model.type === Enums.Wireless && passwordIsStatic
 
     ColumnLayout {
         id: _itemLayout
@@ -68,7 +69,7 @@ Item {
                         return
 
                     if (model.uuid || !predictableWirelessPassword) {
-                        if (connectionState === NM.Enums.Deactivated) {
+                        if (connectionState === Enums.Deactivated) {
                             if (!predictableWirelessPassword && !model.uuid) {
                                 handler.addAndActivateConnection(model.devicePath, model.specificPath)
                             } else {
@@ -86,7 +87,7 @@ Item {
                     }
 
 //                    if (model.uuid || !predictableWirelessPassword) {
-//                        if (connectionState === NM.Enums.Deactivated) {
+//                        if (connectionState === Enums.Deactivated) {
 //                            if (!predictableWirelessPassword && !model.uuid) {
 //                                handler.addAndActivateConnection(model.devicePath, model.specificPath);
 //                            } else {
@@ -132,8 +133,8 @@ Item {
                     id: busyIndicator
                     width: 22
                     height: width
-                    visible: connectionState === NM.Enums.Activating ||
-                             connectionState === NM.Enums.Deactivating
+                    visible: connectionState === Enums.Activating ||
+                             connectionState === Enums.Deactivating
                     running: busyIndicator.visible
                 }
 
@@ -143,7 +144,7 @@ Item {
                     height: width
                     sourceSize: Qt.size(width, height)
                     source: "qrc:/images/light/checked.svg"
-                    visible: model.connectionState === NM.Enums.Activated
+                    visible: model.connectionState === Enums.Activated
 
                     ColorOverlay {
                         anchors.fill: parent
@@ -210,12 +211,10 @@ Item {
                     echoMode: TextInput.Password
                     selectByMouse: true
                     placeholderText: qsTr("Password")
-                    validator: RegExpValidator {
-                        regExp: {
-                            if (model.securityType === NM.Enums.StaticWep)
-                                return /^(?:[\x20-\x7F]{5}|[0-9a-fA-F]{10}|[\x20-\x7F]{13}|[0-9a-fA-F]{26}){1}$/;
-                            return /^(?:[\x20-\x7F]{8,64}){1}$/;
-                        }
+                    validator: RegularExpressionValidator {
+                        regularExpression: (model.securityType === Enums.StaticWep)
+                                            ? /^(?:[\x20-\x7F]{5}|[0-9a-fA-F]{10}|[\x20-\x7F]{13}|[0-9a-fA-F]{26}){1}$/
+                                            : /^(?:[\x20-\x7F]{8,64}){1}$/
                     }
                     onAccepted: connectWithPassword()
                     Keys.onEscapePressed: additionalSettings.toggle()
@@ -239,7 +238,7 @@ Item {
                 visible: !predictableWirelessPassword
 
                 Button {
-                    visible: (model.uuid || !predictableWirelessPassword) && connectionState === NM.Enums.Deactivated
+                    visible: (model.uuid || !predictableWirelessPassword) && connectionState === Enums.Deactivated
                     text: qsTr("Connect")
                     flat: true
 
@@ -253,7 +252,7 @@ Item {
                 }
 
                 Button {
-                    visible: connectionState === NM.Enums.Activated
+                    visible: connectionState === Enums.Activated
                     text: qsTr("Disconnect")
 
                     onClicked: {

@@ -22,8 +22,8 @@ import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import Qt5Compat.GraphicalEffects 6.0
 import FishUI 1.0 as FishUI
+import cutefish.networkmanagement 1.0
 import Cutefish.Settings 1.0
-import Cutefish.NetworkManagement 1.0 as NM
 
 Item {
     implicitWidth: 230

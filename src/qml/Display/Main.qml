@@ -21,7 +21,7 @@ import QtQuick 6.0
 import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import Cutefish.Settings 1.0
-import Cutefish.Screen 1.0 as CS
+import cutefish.screen 1.0 as CS
 import FishUI 1.0 as FishUI
 import "../"
 

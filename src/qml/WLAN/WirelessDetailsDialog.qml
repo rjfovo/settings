@@ -22,7 +22,7 @@ import QtQuick.Window 6.0
 import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import cutefish.networkmanagement 1.0
 
 Dialog {
     id: control
@@ -37,7 +37,7 @@ Dialog {
 
     signal forgetBtnClicked()
 
-    NM.WirelessItemSettings {
+    WirelessItemSettings {
         id: settings
     }
 
