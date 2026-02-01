@@ -22,7 +22,7 @@ import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import FishUI 1.0 as FishUI
 import Cutefish.Settings 1.0
-import Cutefish.Audio 1.0
+import cutefish.Audio 1.0
 import "../"
 
 ItemPage {
@@ -144,15 +144,15 @@ ItemPage {
                                 id: slider
                                 Layout.fillWidth: true
                                 value: Volume
-                                from: PulseAudio.MinimalVolume
-                                to: PulseAudio.NormalVolume
+                                from: 0
+                                to: 65536
                                 enabled: VolumeWritable
                                 visible: HasVolume
 
                                 ToolTip {
                                     parent: slider.handle
                                     visible: slider.pressed
-                                    text: (slider.value / slider.to * 100).toFixed(0)
+                                    text: (slider.value / 65536.0 * 100).toFixed(0)
                                 }
 
                                 onMoved: {
@@ -226,8 +226,8 @@ ItemPage {
                                 id: _slider
                                 Layout.fillWidth: true
                                 value: Volume
-                                from: PulseAudio.MinimalVolume
-                                to: PulseAudio.NormalVolume
+                                from: 0
+                                to: 65536
                                 enabled: VolumeWritable
                                 visible: HasVolume
 
@@ -239,7 +239,7 @@ ItemPage {
                                 ToolTip {
                                     parent: _slider.handle
                                     visible: _slider.pressed
-                                    text: (_slider.value / _slider.to * 100).toFixed(0)
+                                    text: (_slider.value / 65536.0 * 100).toFixed(0)
                                 }
                             }
                         }
