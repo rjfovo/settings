@@ -22,7 +22,7 @@ import QtQuick.Controls 6.0
 import QtQuick.Layouts 6.0
 import FishUI 1.0 as FishUI
 import Cutefish.Settings 1.0
-import cutefish.Audio 1.0
+import cutefish.audio 1.0
 import "../"
 
 ItemPage {

@@ -5,6 +5,7 @@
 #include <QLocale>
 #include <QIcon>
 #include <QDebug>
+#include <QDir>
 
 #include "settingsuiadaptor.h"
 #include "fontsmodel.h"
@@ -39,9 +40,40 @@ static QObject *passwordSingleton(QQmlEngine *engine, QJSEngine *scriptEngine)
 }
 
 Application::Application(int &argc, char **argv)
-    : QApplication(argc, argv)
+    : QGuiApplication(argc, argv)
 {
     qDebug() << "Cutefish Settings starting...";
+    
+    // 设置图标主题
+    // 在Qt6中，需要确保图标主题可用
+    // 首先设置搜索路径
+    QStringList iconThemePaths;
+    iconThemePaths << "/usr/share/icons";
+    iconThemePaths << QDir::homePath() + "/.local/share/icons";
+    iconThemePaths << "/usr/local/share/icons";
+    QIcon::setThemeSearchPaths(iconThemePaths);
+    
+    // 尝试按优先级设置图标主题
+    QStringList preferredThemes = {"cutefish", "Crule", "Crule-dark", "breeze", "Adwaita", "hicolor"};
+    QString themeSet = "hicolor"; // 默认回退
+    
+    for (const QString &theme : preferredThemes) {
+        QString themePath = QString("/usr/share/icons/%1").arg(theme);
+        if (QDir(themePath).exists()) {
+            themeSet = theme;
+            break;
+        }
+    }
+    
+    QIcon::setThemeName(themeSet);
+    qDebug() << "Settings: Icon theme set to:" << QIcon::themeName() << "from search paths:" << QIcon::themeSearchPaths();
+    
+    // 确保QIcon图像提供者可用于QML
+    // 这是image://icontheme/ URL正常工作所必需的
+    if (QIcon::themeName().isEmpty()) {
+        qWarning() << "Settings: No icon theme set! image://icontheme/ URLs will not work.";
+    }
+    
     setWindowIcon(QIcon::fromTheme("preferences-system"));
     setOrganizationName("cutefishos");
 
@@ -101,9 +133,9 @@ Application::Application(int &argc, char **argv)
     QLocale locale;
     QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-settings/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
-        QTranslator *translator = new QTranslator(QApplication::instance());
+        QTranslator *translator = new QTranslator(QGuiApplication::instance());
         if (translator->load(qmFilePath)) {
-            QApplication::installTranslator(translator);
+            QGuiApplication::installTranslator(translator);
         } else {
             translator->deleteLater();
         }
@@ -118,7 +150,7 @@ Application::Application(int &argc, char **argv)
         switchToPage(module);
     }
 
-    QApplication::exec();
+    QGuiApplication::exec();
 }
 
 void Application::switchToPage(const QString &name)

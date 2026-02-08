@@ -72,26 +72,41 @@ ItemPage {
                     }
                 }
 
-                GridView {
-                    id: _view
+    GridView {
+        id: _view
 
-                    property int rowCount: _view.width / itemWidth
+        // 避免在属性绑定中使用_view.width，这可能导致布局循环
+        property int rowCount: Math.max(1, Math.floor(width / itemWidth))
 
-                    Layout.fillWidth: true
-                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + FishUI.Units.largeSpacing
+        Layout.fillWidth: true
+        // 使用显式高度计算，避免在count为0时出现除零错误
+        implicitHeight: {
+            if (count === 0 || rowCount === 0) {
+                return 0
+            }
+            return Math.ceil(count / rowCount) * cellHeight + FishUI.Units.largeSpacing
+        }
 
-                    visible: background.backgroundType === 0
+        visible: background.backgroundType === 0
 
-                    clip: true
-                    model: background.backgrounds
-                    currentIndex: -1
-                    interactive: false
+        clip: true
+        model: background.backgrounds
+        currentIndex: -1
+        interactive: false
 
-                    cellHeight: itemHeight
-                    cellWidth: calcExtraSpacing(itemWidth, _view.width) + itemWidth
+        cellHeight: itemHeight
+        cellWidth: {
+            if (rowCount === 0) return itemWidth
+            var availableColumns = Math.floor(width / itemWidth)
+            if (availableColumns <= 0) return itemWidth
+            var allColumnSize = availableColumns * itemWidth
+            var extraSpace = Math.max(width - allColumnSize, 0)
+            var extraSpacing = extraSpace / availableColumns
+            return itemWidth + Math.floor(extraSpacing)
+        }
 
-                    property int itemWidth: 180
-                    property int itemHeight: 127
+        property int itemWidth: 180
+        property int itemHeight: 127
 
                     delegate: Item {
                         id: item
@@ -102,12 +117,13 @@ ItemPage {
                         height: GridView.view.cellHeight
                         scale: 1.0
 
-                        Behavior on scale {
-                            NumberAnimation {
-                                duration: 200
-                                easing.type: Easing.OutSine
-                            }
-                        }
+                        // 移除Behavior动画以减少内存使用
+                        // Behavior on scale {
+                        //     NumberAnimation {
+                        //         duration: 200
+                        //         easing.type: Easing.OutSine
+                        //     }
+                        // }
 
                         // Preload background
                         Rectangle {
@@ -136,7 +152,7 @@ ItemPage {
                             radius: FishUI.Theme.bigRadius + FishUI.Units.smallSpacing / 2
 
                             border.color: FishUI.Theme.highlightColor
-                            border.width: _image.status == Image.Ready & isSelected ? 3 : 0
+                            border.width: _image.status == Image.Ready && isSelected ? 3 : 0
 
                             Image {
                                 id: _image
@@ -146,63 +162,60 @@ ItemPage {
                                 sourceSize: Qt.size(width, height)
                                 fillMode: Image.PreserveAspectCrop
                                 asynchronous: true
-                                mipmap: true
+                                mipmap: false  // 禁用mipmap以减少内存
                                 cache: true
-                                smooth: true
+                                smooth: false  // 禁用平滑以减少GPU负载
                                 opacity: 1.0
 
-                                Behavior on opacity {
-                                    NumberAnimation {
-                                        duration: 100
-                                        easing.type: Easing.InOutCubic
-                                    }
-                                }
+                                // 移除Behavior动画
+                                // Behavior on opacity {
+                                //     NumberAnimation {
+                                //         duration: 100
+                                //         easing.type: Easing.InOutCubic
+                                //     }
+                                // }
 
-                                layer.enabled: true
-                                layer.effect: OpacityMask {
-                                    maskSource: Item {
-                                        width: _image.width
-                                        height: _image.height
-
-                                        Rectangle {
-                                            anchors.fill: parent
-                                            radius: FishUI.Theme.bigRadius
-                                        }
-                                    }
-                                }
+                                // 暂时禁用OpacityMask以测试崩溃问题
+                                // layer.enabled: true
+                                // layer.effect: OpacityMask {
+                                //     maskSource: Item {
+                                //         width: _image.width
+                                //         height: _image.height
+                                //
+                                //         Rectangle {
+                                //             anchors.fill: parent
+                                //             radius: FishUI.Theme.bigRadius
+                                //         }
+                                //     }
+                                // }
                             }
 
                             MouseArea {
                                 anchors.fill: parent
                                 acceptedButtons: Qt.LeftButton
-                                hoverEnabled: true
+                                hoverEnabled: false  // 禁用hover以减少事件处理
 
                                 onClicked: {
                                     background.setBackground(modelData)
                                 }
 
-                                onEntered: function() {
-                                    _image.opacity = 0.7
-                                }
-                                onExited: function() {
-                                    _image.opacity = 1.0
-                                }
+                                // 移除hover效果以减少动画
+                                // onEntered: function() {
+                                //     _image.opacity = 0.7
+                                // }
+                                // onExited: function() {
+                                //     _image.opacity = 1.0
+                                // }
 
-                                onPressedChanged: item.scale = pressed ? 0.97 : 1.0
+                                onPressedChanged: {
+                                    // 简化按压效果
+                                    item.scale = pressed ? 0.97 : 1.0
+                                }
                             }
                         }
                     }
 
-                    function calcExtraSpacing(cellSize, containerSize) {
-                        var availableColumns = Math.floor(containerSize / cellSize)
-                        var extraSpacing = 0
-                        if (availableColumns > 0) {
-                            var allColumnSize = availableColumns * cellSize
-                            var extraSpace = Math.max(containerSize - allColumnSize, 0)
-                            extraSpacing = extraSpace / availableColumns
-                        }
-                        return Math.floor(extraSpacing)
-                    }
+                    // calcExtraSpacing 函数已不再需要，因为 cellWidth 现在直接计算
                 }
 
                 Item {
@@ -237,9 +250,16 @@ ItemPage {
             id: _colorView
             Layout.fillWidth: true
 
-            property int rowCount: _colorView.width / cellWidth
+            // 避免在属性绑定中使用_width，这可能导致布局循环
+            property int rowCount: Math.max(1, Math.floor(width / cellWidth))
 
-            implicitHeight: Math.ceil(_colorView.count / _colorView.rowCount) * cellHeight + FishUI.Units.largeSpacing
+            // 使用显式高度计算，避免在count为0时出现除零错误
+            implicitHeight: {
+                if (count === 0 || rowCount === 0) {
+                    return 0
+                }
+                return Math.ceil(count / rowCount) * cellHeight + FishUI.Units.largeSpacing
+            }
 
             cellWidth: 50
             cellHeight: 50
@@ -261,7 +281,7 @@ ItemPage {
             }
 
             delegate: Rectangle {
-                property bool checked: Qt.colorEqual(background.backgroundColor, bgColor)
+                property bool checked: background.backgroundColor === bgColor
                 property color currentColor: bgColor
 
                 width: _colorView.itemSize + FishUI.Units.largeSpacing
