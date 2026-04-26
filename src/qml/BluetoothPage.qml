@@ -23,7 +23,6 @@ import QtQuick.Layouts 6.0
 import Cutefish.Settings 1.0
 import FishUI 1.0 as FishUI
 import org.kde.bluezqt 1.0 as BluezQt
-import org.kde.plasma.private.bluetooth 1.0
 
 ItemPage {
     headerTitle: qsTr("Bluetooth")
@@ -70,12 +69,7 @@ ItemPage {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
 
-                DevicesProxyModel {
-                    id: devicesModel
-                    sourceModel: BluezQt.DevicesModel { }
-                }
-
-                model: BluezQt.Manager.bluetoothOperational ? devicesModel : []
+                model: BluezQt.Manager.bluetoothOperational ? BluezQt.DevicesModel { } : []
 
                 delegate: Item {
                     width: ListView.view.width
